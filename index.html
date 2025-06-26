@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Giới Thiệu</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="/">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h2>Pallet Quang Dung</h2>
+    </a>
+
+    <div class="header-right">
+      <input type="text" id="searchBoxHeader" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
+      <button id="menuButton">
+        <img src="images/menu.png" alt="Menu">
+      </button>
+      <div id="menuOverlay" class="slideMenu">
+        <!-- button close -->
+        <button id="closeMenuButton">
+          <img src="images/close.png" alt="X">
+        </button>
+        <div>
+          <a href="#about">Giới thiệu</a>
+          <a href="#services">Dịch vụ</a>
+          <a href="#products">Sản phẩm</a>
+          <a href="#contact">Liên hệ</a>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#about">Giới thiệu</a>
+      <a href="#services">Dịch vụ</a>
+      <a href="#products">Sản phẩm</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+
+  </header>
+
+  <!-- Slider (First View) -->
+  <div class="slider">
+    <div class="slide active"
+      style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&h=400&q=80');">
+      <div class="slide-caption">Chúng tôi mang đến giải pháp tối ưu cho doanh nghiệp</div>
+    </div>
+    <div class="slide"
+      style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&h=400&q=80');">
+      <div class="slide-caption">Sản phẩm chất lượng – Dịch vụ uy tín</div>
+    </div>
+  </div>
+
+  <!-- Giới thiệu -->
+  <section id="about">
+    <h2>Giới thiệu công ty</h2>
+    <p>Công ty A chuyên cung cấp các sản phẩm tiêu dùng công nghệ hiện đại, với sứ mệnh nâng cao chất lượng cuộc sống
+      thông qua giải pháp tiện ích và thân thiện với môi trường.</p>
+  </section>
+
+  <!-- Dịch vụ -->
+  <section id="services">
+    <h2>Dịch vụ</h2>
+    <div class="service-item">
+      <h3>Tư vấn & Thiết kế giải pháp</h3>
+      <p>Chúng tôi cung cấp giải pháp phù hợp nhất cho từng doanh nghiệp và cá nhân.</p>
+    </div>
+    <div class="service-item">
+      <h3>Bảo hành & Hỗ trợ kỹ thuật</h3>
+      <p>Đội ngũ kỹ thuật luôn sẵn sàng hỗ trợ sau bán hàng 24/7.</p>
+    </div>
+    <div class="service-item">
+      <h3>Giao hàng toàn quốc</h3>
+      <p>Vận chuyển nhanh chóng, đảm bảo nguyên vẹn sản phẩm đến tay khách hàng.</p>
+    </div>
+  </section>
+
+  <!-- Sản phẩm -->
+  <section id="products">
+    <h2>Sản phẩm</h2>
+    <input type="text" id="searchBox" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
+    <div id="product-list"></div>
+  </section>
+
+
+  <!-- Liên hệ -->
+  <section id="contact">
+    <h2>Liên hệ</h2>
+    <div>
+      <ul>
+        <!-- Zalo
+        Facebook
+        Số điện thoại -->
+        <!-- link và image và text -->
+        <li>
+          <a href="https://zalo.me/">
+            <img src="images/zalo.png" alt="Zalo">
+            <p>Zalo</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com/">
+            <img src="images/facebook.png" alt="Facebook">
+            <p>Facebook</p>
+          </a>
+        </li>
+        <li>
+          <a href="tel:0123456789">
+            <img src="images/mobile.png" alt="Phone">
+            <p>0123456789</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact fixed -->
+  <section id="contactFixed">
+    <div>
+      <ul>
+        <li>
+          <a href="https://zalo.me/">
+            <img src="images/zalo.png" alt="Zalo">
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com/">
+            <img src="images/facebook.png" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="tel:0123456789">
+            <img src="images/mobile.png" alt="Phone">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <img src="images/logo.png" class="logo" alt="Logo Footer">
+    <div>
+      <ul>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#services">Dịch vụ</a></li>
+        <li><a href="#products">Sản phẩm</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </div>
+    <p>© <span id="year"></span> Công ty A. All rights reserved.</p>
+  </footer>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/slides.js"></script>
+<script src="js/products.js"></script>
+
+</html>
