@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="fav.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <meta name="keywords" content="pallet nhựa, pallet gỗ, pallet nhựa tái chế, pallet nhựa liền khối, pallet nhựa cỡ lớn, pallet nhựa đen, pallet nhựa đan lưới, pallet nhựa đen, pallet nhựa đen, pallet nhựa đen">
+    <meta name="author" content="">
+    <title>Pallet Quang Dũng - Bình Dương</title>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/product.css">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="https://ngquangvu.github.io/Pallets/">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h2>PALLET QUANG DŨNG</h2>
+        </a>
+
+        <div class="header-right">
+            <input type="search" id="searchBoxHeader" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
+            <button id="menuButton">
+                <img src="images/menu.png" alt="Menu">
+            </button>
+            <div id="menuOverlay" class="slideMenu">
+                <!-- button close -->
+                <button id="closeMenuButton">
+                    <img src="images/close.png" alt="X">
+                </button>
+                <div>
+                    <a href="#about">Giới thiệu</a>
+                    <a href="#services">Dịch vụ</a>
+                    <a href="#products">Sản phẩm</a>
+                    <a href="#contact">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#about">Giới thiệu</a>
+            <a href="#services">Dịch vụ</a>
+            <a href="#products">Sản phẩm</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+
+    </header>
+
+    <!-- Chi tiết sản phẩm -->
+    <section id="productDetail" class="product">
+        <div class="product-detail">
+            <div class="product-content">
+                <!-- Cột trái: Hình sản phẩm -->
+                <div class="product-images">
+                    <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Sản phẩm" class="main-image">
+                    <div class="thumbnail-list">
+                        <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 1"
+                            class="thumbnail">
+                        <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 2"
+                            class="thumbnail">
+                        <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 3"
+                            class="thumbnail">
+                    </div>
+                </div>
+
+                <!-- Cột phải: Thông tin sản phẩm -->
+                <div class="product-info">
+                    <p><strong>Mã:</strong> SP001</p>
+                    <h2>Tên sản phẩm</h2>
+                    <p class="price">Giá: 1.000.000₫</p>
+                    <button class="contact-btn">Liên hệ</button>
+                </div>
+            </div>
+
+            <!-- Mô tả chi tiết -->
+            <div class="product-description">
+                <h3>Chi tiết sản phẩm</h3>
+                <p>
+                    Đây là mô tả chi tiết của sản phẩm. Bạn có thể thêm thông tin về chất liệu, kích thước, xuất xứ, và
+                    các
+                    thông số kỹ thuật khác tại đây.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sản phẩm -->
+    <section id="products">
+        <h2>Sản phẩm</h2>
+        <input type="search" id="searchBox" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
+        <div id="product-list"></div>
+    </section>
+
+
+    <!-- Liên hệ -->
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <div>
+            <ul>
+                <!-- Zalo
+        Facebook
+        Số điện thoại -->
+                <!-- link và image và text -->
+                <li>
+                    <a href="https://zalo.me/">
+                        <img src="images/zalo.png" alt="Zalo">
+                        <p>Zalo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/">
+                        <img src="images/facebook.png" alt="Facebook">
+                        <p>Facebook</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:0966799997">
+                        <img src="images/mobile.png" alt="Phone">
+                        <p>0966799997</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact fixed -->
+    <section id="contactFixed">
+        <div>
+            <ul>
+                <li>
+                    <a href="https://zalo.me/">
+                        <img src="images/zalo.png" alt="Zalo">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/">
+                        <img src="images/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:0966799997">
+                        <img src="images/mobile.png" alt="Phone">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <img src="images/logo.png" class="logo" alt="Logo Footer">
+        <div>
+            <ul>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </div>
+        <p>Địa chỉ: Số 276, Đường DT 742, Ấp Bào Gốc, Xã Bình Mỹ, Huyện Bắc Tân Uyên, Tỉnh Bình Dương</p>
+        <p>© <span id="year"></span> Công ty TNHH Sản Xuất Gỗ Quang Dũng. MST: 3702764403</p>
+    </footer>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/slides.js"></script>
+<script src="js/products.js"></script>
+
+</html>
