@@ -23,6 +23,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Arial", sans-serif;
   line-height: 1.6;
   background: #f9f9f9;
@@ -50,7 +51,7 @@ header > a {
 }
 
 header h2 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 600;
   /* color gradient left to right wood color to black */
@@ -58,7 +59,6 @@ header h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-left: 12px;
-
 }
 
 header img.logo {
@@ -131,11 +131,11 @@ header #menuOverlay div {
     position: relative;
     width: 100%;
     max-width: 400px;
-    margin-top: 6px;
+    margin: 6px 0 0;
   }
 
   header .header-right #searchBoxHeader {
-    width: 100%;
+    width: 85%;
     max-width: 400px;
     height: 40px;
     padding: 12px;
@@ -280,12 +280,107 @@ section > h2 {
   }
 }
 
+/* SERVICE */
+#services {
+  display: flex;
+  flex-direction: column;
+}
+
+#services > div {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 #services .service-item {
-  background: #fff;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  margin-bottom: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+#services .service-item:nth-child(even) {
+  position: relative;
+  z-index: 1;
+  flex-direction: row;
+}
+
+#services .service-item:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -40px;
+  bottom: 40px;
+  left: -25vw;
+  width: 150vw;
+  height: calc(100% + 80px);
+  background-color: #fff6db;
+}
+
+#services .service-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+#services .service-item .service-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#services .service-item .service-image {
+  flex: 1;
+}
+
+#services .service-item .service-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* mobile css */
+@media (max-width: 768px) {
+  #services .service-item {
+    gap: 20px;
+  }
+
+  #services > div {
+    gap: 40px;
+  }
+
+  #services .service-item:nth-child(even)::before {
+    display: none;
+  }
+
+  #services .service-item {
+    flex-direction: column;
+  }
+
+  #services .service-item h3 {
+    font-size: 16px;
+  }
+
+  #services .service-item p {
+    font-size: 16px;
+  }
+
+  #services .service-item .service-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #services .service-item .service-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #services .service-item .service-image img {
+    width: 100%;
+    height: 120px;
+  }
 }
 
 #about > div,
@@ -440,7 +535,7 @@ form button:hover {
 
   #contact ul li a {
     min-width: 120px;
-    width: calc(50% - 14px);  
+    width: calc(50% - 14px);
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -459,6 +554,7 @@ form button:hover {
 /* contactfixed */
 #contactFixed {
   position: fixed;
+  z-index: 1000;
   bottom: 0px;
   right: 0px;
   display: flex;
@@ -492,7 +588,6 @@ form button:hover {
   width: 45px;
   padding: 0px;
 }
-
 
 #contactFixed ul li a {
   transition: transform 0.3s ease;

@@ -1,52 +1,59 @@
-.product .product-detail {
+.product-page {
+  border-radius: 0;
+}
+
+.product-page .product-detail {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.product .product-content {
+.product-page .product-content {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
-.product .product-images {
+.product-page .product-images {
   flex: 1 1 50%;
 }
 
-.product .main-image {
+.product-page .main-image {
   width: 100%;
   height: auto;
   border: 1px solid #ccc;
 }
 
-.product .thumbnail-list {
+.product-page .thumbnail-list {
   display: flex;
   gap: 10px;
   margin-top: 10px;
 }
 
-.product .thumbnail {
+.product-page .thumbnail {
   width: calc((100% / 3) - 7px);
+  height: 120px;
   cursor: pointer;
   border: 1px solid #ddd;
 }
 
-.product .product-info {
+.product-page .product-info {
   flex: 1 1 50%;
 }
 
-.product .product-info h2 {
+.product-page .product-info h2 {
   margin-top: 0;
 }
 
-.product .price {
+.product-page .price {
   color: red;
   font-weight: bold;
   font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
-.product .contact-btn {
-  padding: 10px 20px;
+.product-page .contact-btn {
+  padding: 12px 22px;
+  font-size: 16px;
   background: #007bff;
   color: #fff;
   border: none;
@@ -54,14 +61,35 @@
   border-radius: 5px;
 }
 
-.product .contact-btn:hover {
+.product-page .contact-btn:hover {
   background: #0056b3;
 }
 
-.product .product-description {
+.product-page .product-description {
   margin-top: 30px;
 }
 
-.product .product-description h3 {
+.product-page .product-description h3 {
   margin-bottom: 10px;
+}
+
+.product-page .product-description img {
+  width: 100%;
+  height: auto;
+}
+
+/* mobile CSS */
+@media (max-width: 768px) {
+  .product-page {
+    margin-top: 110px;
+  }
+
+  .product-page .product-detail {
+    padding: 0px;
+  }
+
+  .product-page .product-content {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
