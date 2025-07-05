@@ -58,22 +58,23 @@
             <div class="product-content">
                 <!-- Cột trái: Hình sản phẩm -->
                 <div class="product-images">
-                    <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Sản phẩm" class="main-image">
-                    <div class="thumbnail-list">
+                    <img id="mainImage" src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Sản phẩm" class="main-image">
+                    <!-- <div class="thumbnail-list">
                         <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 1"
                             class="thumbnail">
                         <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 2"
                             class="thumbnail">
                         <img src="https://bao50kg.com/wp-content/uploads/2022/06/avt.jpg" alt="Hình nhỏ 3"
                             class="thumbnail">
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Cột phải: Thông tin sản phẩm -->
                 <div class="product-info">
-                    <p><strong>Mã:</strong> SP001</p>
-                    <h2>Pallet nhựa tiêu chuẩn</h2>
-                    <p class="price">Giá: 280.000₫</p>
+                    <p id="productCode"><strong>Mã:</strong> XXX</p>
+                    <h2 id="productName">Pallet nhựa tiêu chuẩn</h2>
+                    <!-- <p class="price">Giá: Liên hệ</p> -->
+                    <p id="productState" class="state">Tình trạng: Còn hàng</p>
                     <a href="tel:0966799997" class="contact-btn">Liên hệ</a>
                 </div>
             </div>
@@ -81,44 +82,7 @@
             <!-- Mô tả chi tiết -->
             <div class="product-description">
                 <h3>Chi tiết sản phẩm</h3>
-                <p>
-                    Trong những năm gần đây các lĩnh vực kinh doanh cạnh tranh nhau, để phát triển hơn đối thủ cạnh
-                    tranh việc quảng bá thương hiệu, in logo thương hiệu lên các sản phẩm doanh nghiệp là xu hướng tất
-                    yếu.
-
-                    Bài viết sau Pallet nhựa Quang Dũng giúp quý khách hàng, quý doanh nghiệp hiểu rõ hơn về cách quảng
-                    cáo nêu trên. Và một cách mới in logo, in chữ lên pallet nhựa để nhấn mạnh về phát triển thương hiệu
-                    theo nhu cầu của doanh nghiệp.
-                    <br>
-                    <br>
-                    <img src="https://www.container-transportation.com/images/quy-cach-dong-hang-pallet.jpg" alt="Pallet">
-                    <br>
-                    <br>
-                <h3>In chữ lên pallet nhựa</h3>
-
-                Định hình bản sắc thương hiệu doanh nghiệp
-                Logo là một biểu tượng được tạo thành từ văn bản và hình ảnh để nhận diện một doanh nghiệp. Một logo
-                tốt phải thể hiện được ngành nghề, lĩnh vực của công ty và giá trị của thương hiệu. Thiết kế logo là
-                việc tạo ra một nhãn hiệu trực quan thật hoàn hảo cho nhu cầu quảng bá doanh nghiệp của bạn.
-
-                Và với việc phân định doanh nghiệp, một logo tốt cũng cung cấp cho khách hàng một số thông tin quan
-                trọng về công ty của bạn. Logo có thể truyền đạt cho khách hàng biết được đặc trưng ngành hàng, dịch
-                vụ bạn cung cấp, đối tượng mục tiêu và giá trị thương hiệu của doanh nghiệp.
-
-                In chữ, in logo lên pallet nhựa nhằm tăng khả năng nhận diện thương hiệu năm 2023
-                Pallet nhựa hiện nay là sản phẩm phụ trợ phổ biến nhằm giảm sức lao động, tiết kiệm chi phí được các
-                doanh nghiệp sử dụng thường xuyên hơn trong việc: kê nâng, lưu kho bảo quản hay vận chuyển hàng hóa
-                trong sản xuất kinh doanh và xuất khẩu.
-                <br>
-                <br>
-                <img src="https://sieuthigiake.com/img/5-nguyen-tac-sap-xep-hang-hoa-len-pallet-chuan-va-an-toan-nhat.jpg" alt="Pallet">
-                <br>
-                <br>
-
-                Với sự hiện diện của pallet nhựa trong cuộc sống hiện nay như: siêu thị, bến xe, cảng biển, sân bay,
-                kho hàng… thì việc in logo, in chữ lên pallet nhựa nhằm mục đích quảng bá, định hình tăng khả năng
-                nhận diện thương hiệu doanh nghiệp là việc rất cần thiết.
-                </p>
+                <div id="productDescription"></div>
             </div>
         </div>
     </section>
@@ -197,8 +161,11 @@
                 <li><a href="#contact">Liên hệ</a></li>
             </ul>
         </div>
-        <p>Địa chỉ: Số 276, Đường DT 742, Ấp Bào Gốc, Xã Bình Mỹ, Huyện Bắc Tân Uyên, <br class="sp_block">Tỉnh Bình Dương</p>
-        <p>© <span id="year"></span> Công ty TNHH Sản Xuất Gỗ Quang Dũng. MST: <a href="https://masothue.com/3702764403-cong-ty-tnhh-san-xuat-go-quang-dung" target="_blank">3702764403</a></p>
+        <p>Địa chỉ: Số 276, Đường DT 742, Ấp Bào Gốc, Xã Bình Mỹ, Huyện Bắc Tân Uyên, <br class="sp_block">Tỉnh Bình
+            Dương</p>
+        <p>© <span id="year"></span> Công ty TNHH Sản Xuất Gỗ Quang Dũng. MST: <a
+                href="https://masothue.com/3702764403-cong-ty-tnhh-san-xuat-go-quang-dung"
+                target="_blank">3702764403</a></p>
     </footer>
 </body>
 
