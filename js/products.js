@@ -412,8 +412,8 @@ document.querySelectorAll("#searchBoxHeader, #searchBox").forEach((input) => {
   });
 });
 
-// check current url, if is /product.html?id=XXX
-if (window.location.pathname === "/product.html") {
+// check current url, if is contain /product.html?id=XXX
+if (window.location.pathname.includes("/product.html")) {
   const urlParams = new URLSearchParams(window.location.search);
   const id = urlParams.get("id");
   const product = products.find((p) => p.id === parseInt(id));
