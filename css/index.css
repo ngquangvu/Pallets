@@ -79,7 +79,7 @@ header .header-right {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 40%;
   min-width: 200px;
   max-width: 600px;
   margin: 0 12px;
@@ -87,7 +87,7 @@ header .header-right {
 
 header .header-right #searchBoxHeader {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -95,7 +95,7 @@ header .header-right #searchBoxHeader {
 }
 
 header nav a {
-  margin-left: 16px;
+  margin-left: 18px;
   font-size: 16px;
   text-decoration: none;
   color: #333;
@@ -105,7 +105,7 @@ header nav a {
 header nav {
   display: flex;
   justify-content: flex-end;
-  min-width: 18vw;
+  min-width: 340px;
 }
 
 header nav a:hover {
@@ -754,6 +754,7 @@ form button:hover {
   header > div {
     flex-direction: column;
     align-items: flex-start;
+    padding: 0;
   }
 
   nav {
