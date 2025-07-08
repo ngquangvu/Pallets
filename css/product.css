@@ -50,14 +50,15 @@
 
 @media (max-width: 768px) {
   .product-page .product-images::after {
-    top: 30px;
-    left: -5px;
+    top: 0px;
+    left: -2px;
     width: 120px;
     height: 45px;
   }
 
   .product-page .main-image {
-    height: 500px;
+    height: 395px;
+    border: none;
   }
 }
 
