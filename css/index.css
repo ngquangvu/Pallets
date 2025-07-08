@@ -60,9 +60,9 @@ header div > a {
 }
 
 header h2 {
-  min-width: 270px;
+  min-width: 260px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   /* color gradient left to right wood color to black */
   background: linear-gradient(to left, #6f4202, #af875f);
@@ -95,10 +95,11 @@ header .header-right #searchBoxHeader {
 }
 
 header nav a {
-  margin-left: 20px;
+  margin-left: 16px;
+  font-size: 16px;
   text-decoration: none;
   color: #333;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 header nav {
