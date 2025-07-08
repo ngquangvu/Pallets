@@ -523,6 +523,10 @@ footer > div > ul > li > a:hover {
     margin-right: 0;
     margin-bottom: 0;
   }
+
+  footer > div > ul > li:first-of-type {
+    display: none;
+  }
 }
 
 footer a {
