@@ -438,6 +438,7 @@ section > h2 {
   font-size: 18px;
   line-height: 1.35;
   color: #333;
+  margin-top: 5px;
 }
 
 #about > div .info ul li a:hover {
