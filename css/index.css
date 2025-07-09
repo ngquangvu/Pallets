@@ -252,7 +252,8 @@ header #menuOverlay div {
 /* SLIDER */
 .slider {
   position: relative;
-  height: 400px;
+  height: 30vw;
+  max-height: 500px;
   overflow: hidden;
 }
 
@@ -264,6 +265,123 @@ header #menuOverlay div {
   background-position: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+}
+
+.slide .slide_background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.slide .slide_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.slide .slide_wipe {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 30%;
+  z-index: 3;
+  opacity: 0.6;
+}
+
+.slide_yellow .slide_wipe {
+  background: #e9b310;
+}
+
+.slide_yellow .slide_diagonal div:nth-child(1) {
+  background: #e9b310;
+}
+
+.slide_yellow .slide_diagonal div:nth-child(2) {
+  background: #e9b310;
+}
+
+.slide_blue .slide_wipe {
+  background: #0056b3;
+}
+
+.slide_blue .slide_diagonal div:nth-child(1) {
+  background: #0056b3;
+}
+
+.slide_blue .slide_diagonal div:nth-child(2) {
+  background: #0056b3;
+}
+
+.slide_red .slide_wipe {
+  background: #ff0000;
+}
+
+.slide_red .slide_diagonal div:nth-child(1) {
+  background: #ff0000;
+}
+
+.slide_red .slide_diagonal div:nth-child(2) {
+  background: #ff0000;
+}
+
+.slide .slide_diagonal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.slide .slide_diagonal div {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  z-index: 4;
+  opacity: 0.4;
+  rotate: 120deg;
+}
+
+.slide .slide_diagonal div:nth-child(1) {
+  right: -60%;
+}
+
+.slide .slide_diagonal div:nth-child(2) {
+  right: -75%;
+}
+
+.slide .slide_content {
+  position: absolute;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 30px;
+  z-index: 5;
+}
+
+.slide .slide_content div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.slide .slide_content div h3 {
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.slide .slide_content div img {
+  width: 100%;
+  max-width: 350px;
 }
 
 .slide.active {
@@ -295,7 +413,44 @@ section > h2 {
   .slider {
     margin-top: 110px;
     width: 100%;
-    height: 116px;
+    height: 400px;
+  }
+
+  .slide .slide_wipe {
+    height: 60%;
+  }
+
+  .slide .slide_diagonal div {
+    width: 200vw;
+    height: 200vw;
+  }
+
+  .slide .slide_diagonal div:nth-child(1) {
+    right: -135%;
+  }
+
+  .slide .slide_diagonal div:nth-child(2) {
+    right: -160%;
+  }
+
+  .slide .slide_content {
+    padding: 18px;
+  }
+
+  .slide .slide_content div img {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .slide .slide_content div h3 {
+    font-size: 18px;
+    text-align:  center;
+  }
+
+  .slide .slide_content div {
+    flex-direction: column-reverse;
   }
 
   section {
@@ -331,19 +486,28 @@ section > h2 {
 }
 
 #services .service-item:nth-child(even)::before {
-  content: "";
+  /* content: ""; */
   position: absolute;
   z-index: -1;
   top: -40px;
   bottom: 40px;
-  left: -25vw;
-  width: 150vw;
+  width: 100vw;
   height: calc(100% + 80px);
   background-color: #fff6db;
 }
 
 #services .service-item:nth-child(odd) {
   flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  #services .service-item {
+    flex-direction: column !important;
+  }
+
+  #services .service-item .service-content p {
+    margin-bottom: 0px !important;
+  }
 }
 
 #services .service-item .service-content {
@@ -359,6 +523,7 @@ section > h2 {
 
 #services .service-item .service-content p {
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 #services .service-item .service-image {
@@ -418,7 +583,7 @@ section > h2 {
 
   #services .service-item .service-image img {
     width: 100%;
-    height: 120px;
+    height: 220px;
   }
 }
 
@@ -430,10 +595,15 @@ section > h2 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
+#about > div {
+  font-size: 16px;
+}
+
 #about > div .info {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -458,7 +628,6 @@ section > h2 {
 }
 
 #about > div .info ul li a {
-  font-size: 18px;
   line-height: 1.35;
   color: #333;
   margin-top: 5px;
