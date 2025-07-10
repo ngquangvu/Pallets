@@ -517,6 +517,28 @@ if (window.location.pathname.includes("/product.html")) {
       product.description;
     document.getElementById("productState").textContent =
       "Tình trạng: Còn hàng";
+
+
+    // related products filter by same category
+    const relatedProducts = document.getElementById("relatedProduct-list");
+    const relatedProductsToRender = products.filter(
+      (p) => p.category === product.category
+    );
+    const htmlRelated = relatedProductsToRender
+      .map(
+        (p) => `
+    <div class="product swiper-slide">
+      <a href="product.html?id=${p.id}" class="product-image">
+        <img src="${p.image}" alt="${p.name}" />
+      </a>
+      <div class="product-info">
+        <a href="product.html?id=${p.id}">${p.name}</a>
+        <a href="tel:0966799997">Giá: <span>${p.price}</span></a>
+      </div>
+    </div>`
+      )
+      .join("");
+    relatedProducts.innerHTML = htmlRelated;
   }
 }
 

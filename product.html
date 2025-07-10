@@ -17,9 +17,9 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 <script src="js/animation.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
-
     <!-- Header -->
     <header>
         <div>
@@ -92,12 +92,25 @@
         </div>
     </section>
 
+    <!-- Sản phẩm liên quan -->
+    <section id="relatedProducts">
+        <h2>Sản phẩm liên quan</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="relatedProduct-list">
+            </div>
+            <div class="swiper-pagination"></div>
 
-    <!-- Sản phẩm -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+        </div>
+    </section>
+
+    <!-- Toàn bộ Sản phẩm -->
     <section id="products">
-        <h2 class="anm-down">Sản phẩm</h2>
+        <h2>Toàn bộ sản phẩm</h2>
         <input type="search" id="searchBox" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
-        <div id="product-list" class="anm-list-fast"></div>
+        <div id="product-list" class="product-list anm-list-fast"></div>
     </section>
 
 
@@ -105,11 +118,7 @@
     <section id="contact">
         <h2>Liên hệ</h2>
         <div>
-            <ul>
-                <!-- Zalo
-        Facebook
-        Số điện thoại -->
-                <!-- link và image và text -->
+            <ul class="contact-list">
                 <li>
                     <a href="https://zalo.me/0966799997">
                         <img src="images/zalo.png" alt="Zalo">
@@ -131,6 +140,9 @@
             </ul>
         </div>
     </section>
+
+    <!-- Languages -->
+    <div class="gtranslate_wrapper"></div>
 
     <!-- Contact fixed -->
     <section id="contactFixed" class="anm-left">
@@ -186,5 +198,9 @@
 
 <script src="js/index.js"></script>
 <script src="js/products.js"></script>
+<script>window.gtranslateSettings = { "default_language": "vi", "native_language_names": true, "detect_browser_language": true, "languages": ["vi", "zh-CN", "en", "th", "lo", "ms", "id", "ru", "fr", "hi", "ko", "ja"], "wrapper_selector": ".gtranslate_wrapper" }</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
 
 </html>

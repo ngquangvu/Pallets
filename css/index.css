@@ -614,8 +614,6 @@ section > h2 {
 }
 
 #about > div .info ul li {
-  display: inline-block;
-  align-items: flex-start;
   gap: 10px;
   margin-bottom: 5px;
 }
@@ -870,7 +868,7 @@ form button:hover {
 
 /* PRODUCT */
 
-#product-list {
+.product-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
@@ -925,42 +923,43 @@ form button:hover {
   transition: all 0.3s ease;
 }
 
-#product-list .product-info a:hover {
+.product-list .product-info a:hover {
   color: #c5921b;
 }
 
-#product-list .product-info a span {
+.product-list .product-info a span,
+.product .product-info a span {
   color: #b18111;
 }
 
 @media (max-width: 768px) {
   /* 2 columns */
-  #product-list {
+  .product-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 14px;
   }
 
-  #product-list .product {
+  .product-list .product {
     padding: 12px;
   }
 
-  #product-list .product img {
+  .product-list .product img {
     height: 225px;
   }
 
-  #product-list .product-info {
+  .product-list .product-info {
     gap: 10px;
   }
 
-  #product-list .product-info a {
+  .product-list .product-info a {
     font-size: 16px;
   }
 
-  #product-list .product-info p {
+  .product-list .product-info p {
     font-size: 14px;
   }
 
-  #product-list .product-info strong {
+  .product-list .product-info strong {
     font-size: 16px;
   }
 }
