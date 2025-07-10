@@ -37,11 +37,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 32px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 8px 32px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 800;
 }
 
 header > div {
@@ -128,7 +128,8 @@ header #menuOverlay div {
 @media (max-width: 1280px) {
   header h2 {
     min-width: 20vw;
-    font-size: 1.7vw;
+    font-size: 1.2vw;
+    margin-left: 6px;
   }
 }
 
@@ -252,7 +253,8 @@ header #menuOverlay div {
 /* SLIDER */
 .slider {
   position: relative;
-  height: 30vw;
+  height: 21vw;
+  min-height: 400px;
   max-height: 500px;
   overflow: hidden;
 }
@@ -374,7 +376,7 @@ header #menuOverlay div {
 }
 
 .slide .slide_content div h3 {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 400;
   color: #fff;
 }
@@ -399,7 +401,7 @@ header #menuOverlay div {
 }
 
 section {
-  padding: 40px 30px;
+  padding: 20px 20px;
   max-width: 1100px;
   margin: auto;
 }
@@ -471,7 +473,7 @@ section > h2 {
 #services > div {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 35px;
 }
 
 #services .service-item {
@@ -643,6 +645,7 @@ footer {
   color: #ddd;
   text-align: center;
   padding: 30px 30px 20px;
+  margin-top: 30px;
 }
 
 footer > div {
@@ -650,6 +653,7 @@ footer > div {
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  background: url(https://i.postimg.cc/jS3MSThK/map-overlay.png) no-repeat center;
 }
 
 footer > div > ul {
