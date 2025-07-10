@@ -12,7 +12,10 @@
   <title>Pallet Quang Dũng - Bình Dương</title>
 </head>
 <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/animation.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script src="js/animation.js"></script>
 
 <body>
 
@@ -58,14 +61,14 @@
       <img class="slide_background" src="images/banner_1_2.webp" alt="Banner 1">
       <div class="slide_overlay"></div>
       <div class="slide_wipe"></div>
-      <div class="slide_diagonal">
+      <div class="slide_diagonal anm-left">
         <div></div>
         <div></div>
       </div>
       <div class="slide_content">
         <div>
-          <h3>Chuyên vận chuyển, giao hàng pallet và ván gỗ<br class="pc_block"> khắp toàn quốc, đảm bảo kịp thời, chất lượng và uy tín</h3>
-          <img src="images/product_1.png" alt="Product 1">
+          <h3 class="anm-right">Chuyên vận chuyển, giao hàng pallet và ván gỗ<br class="pc_block"> khắp toàn quốc, đảm bảo kịp thời, chất lượng và uy tín</h3>
+          <img class="anm-left" src="images/product_1.png" alt="Product 1">
           </div>
       </div>
     </div>
@@ -103,7 +106,7 @@
 
   <!-- Giới thiệu -->
   <section id="about">
-    <h2>Giới thiệu công ty</h2>
+    <h2 class="anm-down">Giới thiệu công ty</h2>
     <div>
       <p><b>Công ty TNHH Sản Xuất Gỗ Quang Dũng</b> là một trong những đơn vị hàng đầu tại Bình Dương chuyên sản xuất và cung cấp các loại pallet nhựa, pallet ván ép, pallet gỗ,... Với nhiều năm kinh nghiệm trong ngành, chúng tôi tự hào mang đến cho khách hàng những sản phẩm đáp ứng mọi yêu cầu về chất lượng và giá cả.
       </p>
@@ -128,8 +131,8 @@
 
   <!-- Dịch vụ -->
   <section id="services">
-    <h2>Dịch vụ</h2>
-    <div>
+    <h2 class="anm-down">Dịch vụ</h2>
+    <div class="anm-list">
       <div class="service-item">
         <div class="service-content">
           <h3>Tư vấn & Thiết kế & Gia công Pallet - Ván - Gỗ</h3>
@@ -168,21 +171,17 @@
 
   <!-- Sản phẩm -->
   <section id="products">
-    <h2>Sản phẩm</h2>
+    <h2 class="anm-down">Sản phẩm</h2>
     <input type="search" id="searchBox" placeholder="Tìm sản phẩm theo tên hoặc mô tả..." />
-    <div id="product-list"></div>
+    <div id="product-list" class="anm-list-fast"></div>
   </section>
 
 
   <!-- Liên hệ -->
   <section id="contact">
-    <h2>Liên hệ</h2>
+    <h2 class="anm-down">Liên hệ</h2>
     <div>
-      <ul>
-        <!-- Zalo
-        Facebook
-        Số điện thoại -->
-        <!-- link và image và text -->
+      <ul class="anm-list">
         <li>
           <a href="https://zalo.me/0966799997">
             <img src="images/zalo.png" alt="Zalo">
@@ -206,7 +205,7 @@
   </section>
 
   <!-- Contact fixed -->
-  <section id="contactFixed">
+  <section id="contactFixed" class="anm-left">
     <div>
       <ul>
         <li>
@@ -219,7 +218,7 @@
             <img src="images/facebook.png" alt="Facebook">
           </a>
         </li>
-        <li>
+        <li class="phone-ring">
           <a href="tel:0966799997">
             <img src="images/mobile.png" alt="Phone">
           </a>
