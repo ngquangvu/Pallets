@@ -70,10 +70,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-var logoText = "";
-
-
-
 function observeElementUpdate(selector, callback) {
   const targetNode = $(selector)[0];
   if (!targetNode) {
@@ -91,13 +87,20 @@ function observeElementUpdate(selector, callback) {
   return observer;
 }
 
+var logoText = $("#logoText").text();
 $(document).ready(function () {
-  logoText = $("#logoText").text();
   observeElementUpdate(".gt_float_switcher", function () {
-    if (logoText != $("#logoText").text()) {
-      console.log("reload");
-      window.location.reload();
-    }
+    setTimeout(function () {
+      console.log(logoText);
+      console.log($("#logoText").text());
+      
+      if (logoText == $("#logoText").text()) {
+        window.location.reload();
+        alert("Reload");
+      } else {
+        logoText = $("#logoText").text();
+      }
+    }, 2000);
   });
 });
 
