@@ -16,19 +16,6 @@ window.mobileCheck = function () {
 
 const isMobile = mobileCheck();
 
-// Smooth scroll with offset
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", function (e) {
-    const targetId = this.getAttribute("href").slice(1);
-    const target = document.getElementById(targetId);
-    if (target) {
-      e.preventDefault();
-      const offsetTop = target.offsetTop - (isMobile ? 120 : 60);
-      window.scrollTo({ top: offsetTop, behavior: "smooth" });
-    }
-  });
-});
-
 // Mobile menu
 const menuButton = document.getElementById("menuButton");
 const menuOverlay = document.getElementById("menuOverlay");
@@ -50,7 +37,7 @@ closeMenuButton.addEventListener("click", () => {
 const yearElement = document.getElementById("year");
 yearElement.textContent = new Date().getFullYear();
 
-const offset = 74;
+const offsetTop = target.offsetTop - (isMobile ? 120 : 74);
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -60,7 +47,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
     if (targetEl) {
       const y =
-        targetEl.getBoundingClientRect().top + window.pageYOffset - offset;
+        targetEl.getBoundingClientRect().top + window.pageYOffset - offsetTop;
 
       window.scrollTo({
         top: y,
