@@ -210,3 +210,10 @@
   width: 12px !important;
   height: 12px !important;
 }
+
+/* mobile CSS */
+@media (max-width: 768px) {
+  .swiper-slide {
+    margin-bottom: 85px;
+  }
+}
