@@ -96,7 +96,6 @@ $(document).ready(function () {
       
       if (logoText == $("#logoText").text()) {
         window.location.reload();
-        alert("Reload");
       } else {
         logoText = $("#logoText").text();
       }
