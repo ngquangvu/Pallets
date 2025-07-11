@@ -37,7 +37,7 @@ $(document).ready(function () {
   $.fn.anmDelay = function (options) {
     let elements = this;
     let defaults = {
-      delay: 0.15,
+      delay: 0.05,
       property: 'animation-delay',
     };
     let setting = $.extend(defaults, options);
