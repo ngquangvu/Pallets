@@ -69,3 +69,37 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+var logoText = "";
+
+
+
+function observeElementUpdate(selector, callback) {
+  const targetNode = $(selector)[0];
+  if (!targetNode) {
+    return;
+  }
+  const observer = new MutationObserver((mutationsList) => {
+    mutationsList.forEach((mutation) => {
+      if (mutation.type === "childList" || mutation.type === "subtree") {
+        callback(); // Call the callback when HTML content changes
+      }
+    });
+  });
+  const config = { childList: true, subtree: true };
+  observer.observe(targetNode, config);
+  return observer;
+}
+
+$(document).ready(function () {
+  logoText = $("#logoText").text();
+  observeElementUpdate(".gt_float_switcher", function () {
+    if (logoText != $("#logoText").text()) {
+      console.log("reload");
+      window.location.reload();
+    }
+  });
+});
+
+
+
