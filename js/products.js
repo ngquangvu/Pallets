@@ -2,6 +2,7 @@ const products = [
   {
     id: 101,
     name: "Pallet Gù Gỗ Tràm 4 Hướng",
+    slug: "pallet-gu-go-tram-4-huong",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-5822.jpg",
@@ -11,6 +12,7 @@ const products = [
   {
     id: 100,
     name: "Pallet Gù Gỗ Thông 4 Hướng Xe Nâng",
+    slug: "pallet-gu-go-thong-4-huong-xe-nang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-4152.jpg",
@@ -20,6 +22,7 @@ const products = [
   {
     id: 105,
     name: "Pallet Gỗ Tràm 3 Đố 2 Hướng Xe Nâng",
+    slug: "pallet-go-tram-3-do-2-huong-xe-nang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-6597.jpg",
@@ -29,6 +32,7 @@ const products = [
   {
     id: 106,
     name: "Pallet Gỗ Tràm 3 Đố 4 Hướng",
+    slug: "pallet-go-tram-3-do-4-huong",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-8988.jpg",
@@ -38,6 +42,7 @@ const products = [
   {
     id: 107,
     name: "Pallet Gỗ Thông 3 Đố 4 Hướng Xe Nâng",
+    slug: "pallet-go-thong-3-do-4-huong-xe-nang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-3247.jpg",
@@ -47,6 +52,7 @@ const products = [
   {
     id: 103,
     name: "Pallet Ván Ép Xuất Khẩu 4 Hướng Xe Nâng (1220 x 1500 x 120mm)",
+    slug: "pallet-van-ep-xuat-khau-4-huong-xe-nang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-8174.jpg",
@@ -56,6 +62,7 @@ const products = [
   {
     id: 102,
     name: "Pallet Gỗ Tràm 3 Đố 4 Hướng (585 x 1606 x 120mm)",
+    slug: "pallet-go-tram-3-do-4-huong",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/9-9388.jpg",
@@ -65,6 +72,7 @@ const products = [
   {
     id: 104,
     name: "Pallet Ván Ép 4 Hướng Xe Nâng (1200 x 1200 x 120mm)",
+    slug: "pallet-van-ep-4-huong-xe-nang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-4211.jpg",
@@ -75,6 +83,7 @@ const products = [
   {
     id: 108,
     name: "Ván Ép Tái Sử Dụng thanh Lý",
+    slug: "van-ep-tai-su-dung-thanh-ly",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-1816.jpg",
@@ -85,6 +94,7 @@ const products = [
   {
     id: 109,
     name: "Ván Ép Tái Sử Dụng Thanh Lý (Đủ Các Loại Quy Cách)",
+    slug: "van-ep-tai-su-dung-thanh-ly-du-cac-loai-quy-cach",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-8407.jpg",
@@ -95,6 +105,7 @@ const products = [
   {
     id: 110,
     name: "Ván Ép 1220 x 2440 x 15mm",
+    slug: "van-ep-1220-x-2440-x-15mm",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-4642.jpg",
@@ -105,6 +116,7 @@ const products = [
   {
     id: 111,
     name: "Pallet Nhựa Bình Dương",
+    slug: "pallet-nhua-binh-duong",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-8473.jpg",
@@ -115,6 +127,7 @@ const products = [
   {
     id: 112,
     name: "Pallet Nhựa Tân Uyên",
+    slug: "pallet-nhua-tan-uyen",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-4226.jpg",
@@ -125,6 +138,7 @@ const products = [
   {
     id: 113,
     name: "Pallet Xuất Khẩu Thủ Dầu Một",
+    slug: "pallet-xuat-khau-thu-dau-mot",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/9-4899.jpg",
@@ -135,6 +149,7 @@ const products = [
   {
     id: 114,
     name: "Pallet Xuất Khẩu Bàu Bàng",
+    slug: "pallet-xuat-khau-bau-bang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-9659.jpg",
@@ -145,6 +160,7 @@ const products = [
   {
     id: 115,
     name: "Pallet Xuất Khẩu Giá Rẻ Bình Dương",
+    slug: "pallet-xuat-khau-gia-re-binh-duong",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-3077.jpg",
@@ -155,6 +171,7 @@ const products = [
   {
     id: 116,
     name: "Pallet Xuất Khẩu Thuận An",
+    slug: "pallet-xuat-khau-thuan-an",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-7172.jpg",
@@ -165,6 +182,7 @@ const products = [
   {
     id: 117,
     name: "Pallet Xuất Khẩu Dĩ An",
+    slug: "pallet-xuat-khau-di-an",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7795.jpg",
@@ -175,6 +193,7 @@ const products = [
   {
     id: 118,
     name: "Pallet Xuất Khẩu Tân Uyên",
+    slug: "pallet-xuat-khau-tan-uyen",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-5350.jpg",
@@ -195,6 +214,7 @@ const products = [
   {
     id: 120,
     name: "Pallet Ván Ép Dĩ An",
+    slug: "pallet-van-ep-di-an",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2-1005.jpg",
@@ -205,6 +225,7 @@ const products = [
   {
     id: 121,
     name: "Pallet Ván Ép Tân Uyên",
+    slug: "pallet-van-ep-tan-uyen",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-2849.jpg",
@@ -215,6 +236,7 @@ const products = [
   {
     id: 122,
     name: "Ván Công Nghiệp Tân Uyên",
+    slug: "van-cong-nghiep-tan-uyen",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-1427.jpg",
@@ -225,6 +247,7 @@ const products = [
   {
     id: 123,
     name: "Ván Công Nghiệp Bình Dương",
+    slug: "van-cong-nghiep-binh-duong",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-2950.jpg",
@@ -235,6 +258,7 @@ const products = [
   {
     id: 124,
     name: "Pallet Giá Rẻ",
+    slug: "pallet-gia-re",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7853.jpg",
@@ -245,6 +269,7 @@ const products = [
   {
     id: 125,
     name: "Gỗ Pallet Giá Rẻ",
+    slug: "go-pallet-gia-re",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-7636.jpg",
@@ -255,6 +280,7 @@ const products = [
   {
     id: 126,
     name: "Gỗ Pallet Tân Uyên",
+    slug: "go-pallet-tan-uyen",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2-5201.jpg",
@@ -265,6 +291,7 @@ const products = [
   {
     id: 127,
     name: "Gỗ Pallet",
+    slug: "go-pallet",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-1597.jpg",
@@ -275,6 +302,7 @@ const products = [
   {
     id: 128,
     name: "Pallet Xuất Khẩu",
+    slug: "pallet-xuat-khau",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/f91d8bb5-ecf3-4d55-8b7e-2b44e9dfc7c9-2333.jpeg",
@@ -285,6 +313,7 @@ const products = [
   {
     id: 129,
     name: "Ván Công Nghiệp Bình Dương",
+    slug: "van-cong-nghiep-binh-duong",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5adb190f-8d03-4d56-82e2-698f882dcd5b-4924.jpeg",
@@ -295,6 +324,7 @@ const products = [
   {
     id: 130,
     name: "Gỗ Tràm Các Loại Và Đủ Các Quy Cách",
+    slug: "go-tram-cac-loai-va-du-cac-quy-cach",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/71666bf9-5cb6-47e5-912b-253ad1b54514-3330.jpeg",
@@ -305,6 +335,7 @@ const products = [
   {
     id: 131,
     name: "Gỗ Nan Thông",
+    slug: "go-nan-thong",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fef0c8a7-9b13-41b6-aa6a-48f91f870aa6-5136.jpeg",
@@ -315,6 +346,7 @@ const products = [
   {
     id: 132,
     name: "Ván Công Nghiệp Các Loại",
+    slug: "van-cong-nghiep-cac-loai",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/a897659b-5d66-44c6-9822-bda18a0872ad-9037.jpeg",
@@ -325,6 +357,7 @@ const products = [
   {
     id: 133,
     name: "Ván Ép Okal",
+    slug: "van-ep-okal",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7d091492-60fd-4c1e-90c3-7fac367ce214-9326.jpeg",
@@ -335,6 +368,7 @@ const products = [
   {
     id: 134,
     name: "Ván Ép MDF",
+    slug: "van-ep-mdf",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fbc1e2fe-3ab4-4310-b0b4-daf5298719d6-3678.jpeg",
@@ -345,6 +379,7 @@ const products = [
   {
     id: 135,
     name: "Ván Ép",
+    slug: "van-ep",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1dca429f-f571-4728-853d-d282ecaa1de5-7434.jpeg",
@@ -355,6 +390,7 @@ const products = [
   {
     id: 136,
     name: "Ván MDF",
+    slug: "van-mdf",
     category: "van_ep",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/e9bf85e9-9361-46d1-8e95-4bcf865bbdb3-7269.jpeg",
@@ -365,6 +401,7 @@ const products = [
   {
     id: 137,
     name: "Gỗ Thông Giá Rẻ Bình Dương",
+    slug: "go-thong-gia-re-binh-duong",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2af7fe31-251a-4492-87b7-957bc584ecf2-2851.jpeg",
@@ -375,6 +412,7 @@ const products = [
   {
     id: 138,
     name: "Gỗ Thông Bình Dương",
+    slug: "go-thong-binh-duong",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-7192.jpg",
@@ -385,6 +423,7 @@ const products = [
   {
     id: 139,
     name: "Gỗ Thông Minh Khôi Phát",
+    slug: "go-thong-minh-khoi-phat",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-3364.jpg",
@@ -395,6 +434,7 @@ const products = [
   {
     id: 140,
     name: "Gỗ Cao Su Tân Uyên",
+    slug: "go-cao-su-tan-uyen",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-2437.jpg",
@@ -405,6 +445,7 @@ const products = [
   {
     id: 141,
     name: "Gỗ Cao Su",
+    slug: "go-cao-su",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/12-9640.jpg",
@@ -415,6 +456,7 @@ const products = [
   {
     id: 142,
     name: "Gỗ Tràm Tân Uyên",
+    slug: "go-tram-tan-uyen",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/18-8595.jpg",
@@ -425,6 +467,7 @@ const products = [
   {
     id: 143,
     name: "Gỗ Tràm Minh Khôi Phát",
+    slug: "go-tram-minh-khoi-phat",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-3364.jpg",
@@ -435,6 +478,7 @@ const products = [
   {
     id: 144,
     name: "Gỗ Tràm Bình Dương",
+    slug: "go-tram-binh-duong",
     category: "go",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/20-6222.jpg",
@@ -445,6 +489,7 @@ const products = [
   {
     id: 145,
     name: "Pallet Ván Ép",
+    slug: "pallet-van-ep",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-4702.jpg",
@@ -455,6 +500,7 @@ const products = [
   {
     id: 146,
     name: "Pallet Kê Kho",
+    slug: "pallet-ke-kho",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-9887.jpg",
@@ -477,11 +523,11 @@ function render(productsToRender) {
     .map(
       (p) => `
   <div class="product">
-    <a href="product.html?id=${p.id}" class="product-image">
+    <a href="product.html/${p.slug}" class="product-image">
       <img src="${p.image}" alt="${p.name}" />
     </a>
     <div class="product-info">
-      <a href="product.html?id=${p.id}">${p.name}</a>
+      <a href="product.html/${p.slug}">${p.name}</a>
       <a href="tel:0966799997">Giá: <span>${p.price}</span></a>
     </div>
   </div>
@@ -528,11 +574,11 @@ if (window.location.pathname.includes("/product.html")) {
       .map(
         (p) => `
     <div class="product swiper-slide">
-      <a href="product.html?id=${p.id}" class="product-image">
+      <a href="product.html/${p.slug}" class="product-image">
         <img src="${p.image}" alt="${p.name}" />
       </a>
       <div class="product-info">
-        <a href="product.html?id=${p.id}">${p.name}</a>
+        <a href="product.html/${p.slug}">${p.name}</a>
         <a href="tel:0966799997">Giá: <span>${p.price}</span></a>
       </div>
     </div>`
