@@ -110,7 +110,7 @@ header nav {
 }
 
 header nav a:hover {
-  color: #007bff;
+  opacity: 0.8;
 }
 
 header .header-right #menuButton {
@@ -635,7 +635,7 @@ section > h2 {
 }
 
 #about > div .info ul li a:hover {
-  color: #007bff;
+  opacity: 0.8;
 }
 
 footer {
@@ -734,7 +734,7 @@ form button {
 }
 
 form button:hover {
-  background: #0056b3;
+  opacity: 0.8;
 }
 
 #searchBox {
@@ -924,12 +924,12 @@ form button:hover {
 }
 
 .product-list .product-info a:hover {
-  color: #c5921b;
+  opacity: 0.8;
 }
 
 .product-list .product-info a span,
 .product .product-info a span {
-  color: #b18111;
+  color: #8d6812;
 }
 
 @media (max-width: 768px) {
