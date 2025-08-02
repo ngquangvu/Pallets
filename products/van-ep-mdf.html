@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta name="emotion-insertion-point" content="">
+    <meta charset="UTF-8">
+    <link rel="icon" href="fav.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dịch vụ cung cấp pallet gỗ tại Tân Uyên, Phú Giáo, Bàu Bàng, Dĩ An, Thuận An, Bình Dương, các loại pallet gỗ và pallet nhựa,... dành cho khách hàng, miễn phí vận chuyển">
+    <meta name="keywords"
+        content="Ván Ép MDF, pallet Tân Uyên, pallet nhựa Tân Uyên, pallet gỗ Tân Uyên, pallet nhựa Bình Dương, pallet gỗ Bình Dương, pallet Phú Giáo, pallet Bàu Bàng, pallet Dĩ An, pallet giá rẻ, pallet Thuận An, pallet giá rẻ Bình Dương, pallet nhựa, pallet gỗ">
+
+    <!-- Robots -->
+    <meta name="robots" content="index,follow,noodp">
+
+    <!-- Author - Copyright -->
+    <meta name="author" content="Pallet Quang Dũng">
+    <title>Ván Ép MDF | Pallet nhựa và gỗ giá rẻ tại Bình Dương</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="../js/animation.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div>
+            <a href="https://ngquangvu.github.io/Pallets/">
+                <img src="../images/logo.png" alt="Logo" class="logo">
+                <h2 id="logoText">PALLET QUANG DŨNG</h2>
+            </a>
+
+            <div class="header-right">
+                <input type="search" id="searchBoxHeader" placeholder="Tìm sản phẩm theo tên hoặc mô tả...">
+                <button id="menuButton">
+                    <img src="../images/menu.png" alt="Menu">
+                </button>
+                <div id="menuOverlay" class="slideMenu">
+                    <!-- button close -->
+                    <button id="closeMenuButton">
+                        <img src="../images/close.png" alt="X">
+                    </button>
+                    <div>
+                        <a href="/#about">Giới thiệu</a>
+                        <a href="/#services">Dịch vụ</a>
+                        <a href="/#products">Sản phẩm</a>
+                        <a href="/#contact">Liên hệ</a>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <a href="/#about">Giới thiệu</a>
+                <a href="/#services">Dịch vụ</a>
+                <a href="/#products">Sản phẩm</a>
+                <a href="/#contact">Liên hệ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Chi tiết sản phẩm -->
+    <section id="productDetail" class="product-page">
+        <div class="product-detail">
+            <div class="product-content">
+                <!-- Cột trái: Hình sản phẩm -->
+                <div class="product-images">
+                    <img id="mainImage"
+                        src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fbc1e2fe-3ab4-4310-b0b4-daf5298719d6-3678.jpeg"
+                        alt="Sản phẩm" class="main-image">
+                </div>
+
+                <!-- Cột phải: Thông tin sản phẩm -->
+                <div class="product-info">
+                    <p id="productCode">Mã: 134</p>
+                    <h1 id="productName">Ván Ép MDF</h1>
+                    <!-- <p class="price">Giá: Liên hệ</p> -->
+                    <p id="productState" class="state">Tình trạng: Còn hàng</p>
+                    <a href="tel:0966799997" class="contact-btn">Liên hệ</a>
+                </div>
+            </div>
+
+            <!-- Mô tả chi tiết -->
+            <div class="product-description">
+                <h3>Chi tiết sản phẩm</h3>
+                <div id="productDescription">
+                    <div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">
+                        <p><strong style="color:#ff0000;">Ván Ép MDF</strong> là loại ván công nghiệp được sản xuất từ
+                            sợi gỗ nghiền mịn, có độ bền cao, bề mặt mịn và dễ gia công. Đây là vật liệu phổ biến trong
+                            ngành nội thất hiện đại.</p>
+                        <h3><strong>Ưu điểm:</strong></h3>
+                        <ul>
+                            <li>Bề mặt mịn, dễ sơn phủ hoặc dán laminate.</li>
+                            <li>Chịu lực tốt, ít cong vênh, ổn định kích thước.</li>
+                            <li>Thích hợp cho cắt CNC và tạo hình phức tạp.</li>
+                            <li>Thân thiện với môi trường, có thể tái chế.</li>
+                        </ul>
+                        <h3><strong>Ứng dụng:</strong></h3>
+                        <p>Phù hợp cho sản xuất tủ bếp, tủ áo, bàn ghế, vách ngăn và đồ nội thất hiện đại.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sản phẩm liên quan -->
+    <section id="relatedProducts">
+        <h2>Sản phẩm liên quan</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-wrapper" id="relatedProduct-list" aria-live="polite">
+                <div class="product swiper-slide swiper-slide-active" role="group" aria-label="1 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep-tai-su-dung-thanh-ly.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-1816.jpg"
+                            alt="Ván Ép Tái Sử Dụng thanh Lý">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep-tai-su-dung-thanh-ly.html">Ván Ép Tái Sử Dụng thanh
+                            Lý</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide swiper-slide-next" role="group" aria-label="2 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep-tai-su-dung-thanh-ly-du-cac-loai-quy-cach.html"
+                        class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-8407.jpg"
+                            alt="Ván Ép Tái Sử Dụng Thanh Lý (Đủ Các Loại Quy Cách)">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep-tai-su-dung-thanh-ly-du-cac-loai-quy-cach.html">Ván Ép
+                            Tái Sử Dụng Thanh Lý (Đủ Các Loại Quy Cách)</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="3 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep-1220-x-2440-x-15mm.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-4642.jpg"
+                            alt="Ván Ép 1220 x 2440 x 15mm">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep-1220-x-2440-x-15mm.html">Ván Ép 1220 x 2440 x 15mm</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="4 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-cong-nghiep-tan-uyen.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-1427.jpg"
+                            alt="Ván Công Nghiệp Tân Uyên">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-cong-nghiep-tan-uyen.html">Ván Công Nghiệp Tân Uyên</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="5 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-cong-nghiep-binh-duong.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-2950.jpg"
+                            alt="Ván Công Nghiệp Bình Dương">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-cong-nghiep-binh-duong.html">Ván Công Nghiệp Bình Dương</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="6 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-cong-nghiep-cac-loai.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/a897659b-5d66-44c6-9822-bda18a0872ad-9037.jpeg"
+                            alt="Ván Công Nghiệp Các Loại">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-cong-nghiep-cac-loai.html">Ván Công Nghiệp Các Loại</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="7 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep-okal.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7d091492-60fd-4c1e-90c3-7fac367ce214-9326.jpeg"
+                            alt="Ván Ép Okal">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep-okal.html">Ván Ép Okal</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="8 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep-mdf.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fbc1e2fe-3ab4-4310-b0b4-daf5298719d6-3678.jpeg"
+                            alt="Ván Ép MDF">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep-mdf.html">Ván Ép MDF</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="9 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-ep.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1dca429f-f571-4728-853d-d282ecaa1de5-7434.jpeg"
+                            alt="Ván Ép">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-ep.html">Ván Ép</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+                <div class="product swiper-slide" role="group" aria-label="10 / 10"
+                    style="width: 477px; margin-right: 14px;">
+                    <a href="/products/van-mdf.html" class="product-image">
+                        <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/e9bf85e9-9361-46d1-8e95-4bcf865bbdb3-7269.jpeg"
+                            alt="Ván MDF">
+                    </a>
+                    <div class="product-info">
+                        <a href="/products/van-mdf.html">Ván MDF</a>
+                        <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                    aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet"
+                    tabindex="0" role="button" aria-label="Go to slide 9"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+    </section>
+
+    <!-- Toàn bộ Sản phẩm -->
+    <section id="products">
+        <h2>Toàn bộ sản phẩm</h2>
+        <input type="search" id="searchBox" placeholder="Tìm sản phẩm theo tên hoặc mô tả...">
+        <div id="product-list" class="product-list">
+            <div class="product">
+                <a href="/products/pallet-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-3077.jpg"
+                        alt="Pallet Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-binh-duong.html">Pallet Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/f91d8bb5-ecf3-4d55-8b7e-2b44e9dfc7c9-2333.jpeg"
+                        alt="Pallet Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-tan-uyen.html">Pallet Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-gia-re.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7853.jpg"
+                        alt="Pallet Giá Rẻ">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-gia-re.html">Pallet Giá Rẻ</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-nhua-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-8473.jpg"
+                        alt="Pallet Nhựa Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-nhua-binh-duong.html">Pallet Nhựa Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-nhua-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-4226.jpg"
+                        alt="Pallet Nhựa Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-nhua-tan-uyen.html">Pallet Nhựa Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-gu-go-tram-4-huong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-5822.jpg"
+                        alt="Pallet Gù Gỗ Tràm 4 Hướng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-gu-go-tram-4-huong.html">Pallet Gù Gỗ Tràm 4 Hướng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-gu-go-thong-4-huong-xe-nang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-4152.jpg"
+                        alt="Pallet Gù Gỗ Thông 4 Hướng Xe Nâng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-gu-go-thong-4-huong-xe-nang.html">Pallet Gù Gỗ Thông 4 Hướng
+                        Xe Nâng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-go-tram-3-do-2-huong-xe-nang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-6597.jpg"
+                        alt="Pallet Gỗ Tràm 3 Đố 2 Hướng Xe Nâng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-go-tram-3-do-2-huong-xe-nang.html">Pallet Gỗ Tràm 3 Đố 2
+                        Hướng Xe Nâng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-go-tram-3-do-4-huong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-8988.jpg"
+                        alt="Pallet Gỗ Tràm 3 Đố 4 Hướng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-go-tram-3-do-4-huong.html">Pallet Gỗ Tràm 3 Đố 4 Hướng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-go-thong-3-do-4-huong-xe-nang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-3247.jpg"
+                        alt="Pallet Gỗ Thông 3 Đố 4 Hướng Xe Nâng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-go-thong-3-do-4-huong-xe-nang.html">Pallet Gỗ Thông 3 Đố 4
+                        Hướng Xe Nâng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-van-ep-xuat-khau-4-huong-xe-nang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-8174.jpg"
+                        alt="Pallet Ván Ép Xuất Khẩu 4 Hướng Xe Nâng (1220 x 1500 x 120mm)">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-van-ep-xuat-khau-4-huong-xe-nang.html">Pallet Ván Ép Xuất
+                        Khẩu 4 Hướng Xe Nâng (1220 x 1500 x 120mm)</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-van-ep-4-huong-xe-nang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-4211.jpg"
+                        alt="Pallet Ván Ép 4 Hướng Xe Nâng (1200 x 1200 x 120mm)">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-van-ep-4-huong-xe-nang.html">Pallet Ván Ép 4 Hướng Xe Nâng
+                        (1200 x 1200 x 120mm)</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep-tai-su-dung-thanh-ly.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-1816.jpg"
+                        alt="Ván Ép Tái Sử Dụng thanh Lý">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep-tai-su-dung-thanh-ly.html">Ván Ép Tái Sử Dụng thanh Lý</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep-tai-su-dung-thanh-ly-du-cac-loai-quy-cach.html"
+                    class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-8407.jpg"
+                        alt="Ván Ép Tái Sử Dụng Thanh Lý (Đủ Các Loại Quy Cách)">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep-tai-su-dung-thanh-ly-du-cac-loai-quy-cach.html">Ván Ép Tái
+                        Sử Dụng Thanh Lý (Đủ Các Loại Quy Cách)</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep-1220-x-2440-x-15mm.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-4642.jpg"
+                        alt="Ván Ép 1220 x 2440 x 15mm">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep-1220-x-2440-x-15mm.html">Ván Ép 1220 x 2440 x 15mm</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-thu-dau-mot.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/9-4899.jpg"
+                        alt="Pallet Thủ Dầu Một">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-thu-dau-mot.html">Pallet Thủ Dầu Một</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-bau-bang.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-9659.jpg"
+                        alt="Pallet Bàu Bàng">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-bau-bang.html">Pallet Bàu Bàng</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-thuan-an.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-7172.jpg"
+                        alt="Pallet Thuận An">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-thuan-an.html">Pallet Thuận An</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-di-an.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7795.jpg"
+                        alt="Pallet Dĩ An">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-di-an.html">Pallet Dĩ An</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/undefined.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-6208.jpg"
+                        alt="Pallet Ván Ép Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/undefined.html">Pallet Ván Ép Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-van-ep-di-an.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2-1005.jpg"
+                        alt="Pallet Ván Ép Dĩ An">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-van-ep-di-an.html">Pallet Ván Ép Dĩ An</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-van-ep-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-2849.jpg"
+                        alt="Pallet Ván Ép Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-van-ep-tan-uyen.html">Pallet Ván Ép Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-cong-nghiep-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-1427.jpg"
+                        alt="Ván Công Nghiệp Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-cong-nghiep-tan-uyen.html">Ván Công Nghiệp Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-cong-nghiep-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-2950.jpg"
+                        alt="Ván Công Nghiệp Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-cong-nghiep-binh-duong.html">Ván Công Nghiệp Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-pallet-gia-re.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-7636.jpg"
+                        alt="Gỗ Pallet Giá Rẻ">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-pallet-gia-re.html">Gỗ Pallet Giá Rẻ</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-pallet-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2-5201.jpg"
+                        alt="Gỗ Pallet Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-pallet-tan-uyen.html">Gỗ Pallet Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-pallet.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1-1597.jpg"
+                        alt="Gỗ Pallet">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-pallet.html">Gỗ Pallet</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-xuat-khau.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/f91d8bb5-ecf3-4d55-8b7e-2b44e9dfc7c9-2333.jpeg"
+                        alt="Pallet Xuất Khẩu">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-xuat-khau.html">Pallet Xuất Khẩu</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-tram-cac-loai-va-du-cac-quy-cach.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/71666bf9-5cb6-47e5-912b-253ad1b54514-3330.jpeg"
+                        alt="Gỗ Tràm Các Loại Và Đủ Các Quy Cách">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-tram-cac-loai-va-du-cac-quy-cach.html">Gỗ Tràm Các Loại Và Đủ
+                        Các Quy Cách</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-nan-thong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fef0c8a7-9b13-41b6-aa6a-48f91f870aa6-5136.jpeg"
+                        alt="Gỗ Nan Thông">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-nan-thong.html">Gỗ Nan Thông</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-cong-nghiep-cac-loai.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/a897659b-5d66-44c6-9822-bda18a0872ad-9037.jpeg"
+                        alt="Ván Công Nghiệp Các Loại">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-cong-nghiep-cac-loai.html">Ván Công Nghiệp Các Loại</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep-okal.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7d091492-60fd-4c1e-90c3-7fac367ce214-9326.jpeg"
+                        alt="Ván Ép Okal">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep-okal.html">Ván Ép Okal</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep-mdf.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/fbc1e2fe-3ab4-4310-b0b4-daf5298719d6-3678.jpeg"
+                        alt="Ván Ép MDF">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep-mdf.html">Ván Ép MDF</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-ep.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/1dca429f-f571-4728-853d-d282ecaa1de5-7434.jpeg"
+                        alt="Ván Ép">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-ep.html">Ván Ép</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/van-mdf.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/e9bf85e9-9361-46d1-8e95-4bcf865bbdb3-7269.jpeg"
+                        alt="Ván MDF">
+                </a>
+                <div class="product-info">
+                    <a href="/products/van-mdf.html">Ván MDF</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-thong-gia-re-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/2af7fe31-251a-4492-87b7-957bc584ecf2-2851.jpeg"
+                        alt="Gỗ Thông Giá Rẻ Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-thong-gia-re-binh-duong.html">Gỗ Thông Giá Rẻ Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-thong-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/3-7192.jpg"
+                        alt="Gỗ Thông Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-thong-binh-duong.html">Gỗ Thông Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-cao-su-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-2437.jpg"
+                        alt="Gỗ Cao Su Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-cao-su-tan-uyen.html">Gỗ Cao Su Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-cao-su.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/12-9640.jpg"
+                        alt="Gỗ Cao Su">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-cao-su.html">Gỗ Cao Su</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-tram-tan-uyen.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/18-8595.jpg"
+                        alt="Gỗ Tràm Tân Uyên">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-tram-tan-uyen.html">Gỗ Tràm Tân Uyên</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/go-tram-binh-duong.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/20-6222.jpg"
+                        alt="Gỗ Tràm Bình Dương">
+                </a>
+                <div class="product-info">
+                    <a href="/products/go-tram-binh-duong.html">Gỗ Tràm Bình Dương</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-van-ep.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-4702.jpg"
+                        alt="Pallet Ván Ép">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-van-ep.html">Pallet Ván Ép</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+
+            <div class="product">
+                <a href="/products/pallet-ke-kho.html" class="product-image">
+                    <img src="https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-9887.jpg"
+                        alt="Pallet Kê Kho">
+                </a>
+                <div class="product-info">
+                    <a href="/products/pallet-ke-kho.html">Pallet Kê Kho</a>
+                    <a href="tel:0966799997">Giá: <span>Liên hệ</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Liên hệ -->
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <div>
+            <ul class="contact-list">
+                <li>
+                    <a href="https://zalo.me/0966799997">
+                        <img src="../images/zalo.png" alt="Zalo">
+                        <p>Zalo</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:0966799997">
+                        <img src="../images/mobile.png" alt="Phone">
+                        <p>0966799997</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+   <!-- Languages -->
+    <div class="gtranslate_wrapper"></div>
+
+    <!-- Contact fixed -->
+    <section id="contactFixed" class="anm-left is-animated">
+        <div>
+            <ul>
+                <li>
+                    <a href="https://zalo.me/0966799997">
+                        <img src="../images/zalo.png" alt="Zalo">
+                    </a>
+                </li>
+                <li class="phone-ring">
+                    <a href="tel:0966799997">
+                        <img src="../images/mobile.png" alt="Phone">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <ul>
+                <li><img src="../images/logo.png" class="logo" alt="Logo Footer"></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#services">Dịch vụ</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+            <div class="maps">
+                <iframe class="pc_block"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.177358657228!2d106.72326129999999!3d11.1745005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28c53eb7aaef14bd%3A0x646d7497dc178add!2sWood%20Co.%2C%20Ltd.%2C%20Palet%20Quang%20Dung!5e0!3m2!1sen!2s!4v1751989821867!5m2!1sen!2s"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="sp_block"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.177358657228!2d106.72326129999999!3d11.1745005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x28c53eb7aaef14bd%3A0x646d7497dc178add!2sWood%20Co.%2C%20Ltd.%2C%20Palet%20Quang%20Dung!5e0!3m2!1sen!2s!4v1751989821867!5m2!1sen!2s"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <p>Địa chỉ: Thửa đất số 276, Tờ bản đồ số 27, Đường ĐT 742, Ấp Bào Gốc, Phường Bình Cơ, Thành Phố Hồ Chí Minh,
+            Việt Nam</p>
+        <p>© <span id="year">2025</span> CÔNG TY TNHH SẢN XUẤT GỖ QUANG DŨNG. MST: <a
+                href="https://masothue.com/3702764403-cong-ty-tnhh-san-xuat-go-quang-dung" target="_blank">3 7 0 2 7 6 4
+                4 0 3</a></p>
+    </footer>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+
+
+    <script src="../js/index.js"></script>
+    <script src="../js/products.js"></script>
+    <script>window.gtranslateSettings = { "default_language": "vi", "native_language_names": false, "detect_browser_language": false, "languages": ["vi", "zh-CN", "en", "th", "lo", "ms", "id", "ru", "fr", "hi", "ko", "ja"], "wrapper_selector": ".gtranslate_wrapper" }</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
+
+    <div id="quick-start-container"></div>
+</body>
+
+</html>

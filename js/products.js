@@ -1,5 +1,59 @@
 const products = [
   {
+    id: 115,
+    name: "Pallet Bình Dương",
+    slug: "pallet-binh-duong",
+    category: "pallet",
+    image:
+      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-3077.jpg",
+    description: `<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">  <p><strong style="color:#ff0000;">Pallet gỗ</strong> đang ngày càng trở nên phổ biến trong các hoạt động sản xuất, kinh doanh và vận chuyển hàng hóa tại Bình Dương. Với những ưu điểm vượt trội về độ bền, khả năng chịu tải và giá thành hợp lý, pallet gỗ đã trở thành giải pháp tối ưu cho việc bảo quản và vận chuyển hàng hóa.</p>  <p>Sản phẩm này được sản xuất với quy trình hiện đại, không ngừng cải tiến để đáp ứng nhu cầu ngày càng cao của thị trường.<br> Hình bên dưới là loại Pallet Gù Gỗ Tràm 4 Hướng</p>  <p><img src="https://palletgiarebinhduong.vn/upload/filemanager/23.jpg" alt="Pallet Gỗ Thuận An" style="width:100%; max-width:800px; height:auto;"></p>  <h3><strong style="color:#70ad47;">Ưu điểm của Pallet Gỗ:</strong></h3>  <ul>    <li><strong>Độ bền cao:</strong> Làm từ gỗ tự nhiên, có khả năng chịu lực tốt, chống mối mọt, bảo vệ hàng hóa an toàn.</li>    <li><strong>Khả năng tái chế:</strong> Có thể tái sử dụng nhiều lần, thân thiện với môi trường.</li>    <li><strong>Kích thước đa dạng:</strong> Phù hợp với nhiều loại hàng hóa và phương tiện vận chuyển.</li>    <li><strong>An toàn:</strong> Thiết kế gù gỗ giúp dễ dàng di chuyển và xếp chồng, đảm bảo an toàn cho người vận hành.</li>  </ul>   <h3><strong>Dịch vụ liên quan:</strong></h3>  <ul>    <li>Sản xuất theo yêu cầu: Nhận đặt hàng theo mọi kích thước, mẫu mã và số lượng.</li>    <li>Cung cấp sẵn có: Luôn có sẵn số lượng lớn để đáp ứng nhu cầu cấp bách.</li>    <li>Giao hàng nhanh chóng: Hệ thống vận chuyển chuyên nghiệp, đúng hẹn trên toàn quốc.</li>    <li>Giá cả cạnh tranh: Tối ưu chi phí nhờ quy trình sản xuất khép kín.</li>  </ul>  <h3><strong>Lợi ích khi sử dụng Pallet Gỗ:</strong></h3>  <ul>    <li>Sản phẩm đạt tiêu chuẩn chất lượng cao.</li>    <li>Giá cả hợp lý, phù hợp với ngân sách doanh nghiệp.</li>    <li>Dịch vụ chuyên nghiệp, hỗ trợ tận tình.</li>    <li>Giao hàng đúng tiến độ, đảm bảo kế hoạch sản xuất.</li>  </ul>  <h3><strong>Kết luận:</strong></h3>  <p>Pallet gỗ là lựa chọn thông minh cho các doanh nghiệp cần giải pháp vận chuyển và lưu trữ hiệu quả, bền vững và tiết kiệm.</p></div>`,
+    price: "Liên hệ",
+  },
+  {
+    id: 100,
+    name: "Pallet Tân Uyên",
+    slug: "pallet-tan-uyen",
+    category: "pallet",
+    image:
+      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/f91d8bb5-ecf3-4d55-8b7e-2b44e9dfc7c9-2333.jpeg",
+    description:
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet gỗ</strong> là giải pháp tiết kiệm cho doanh nghiệp cần pallet đạt chuẩn xuất khẩu với chi phí hợp lý. Sản phẩm vẫn đảm bảo chất lượng và hiệu quả sử dụng trong quá trình vận chuyển hàng hóa quốc tế.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Giá thành cạnh tranh, phù hợp với ngân sách doanh nghiệp vừa và nhỏ.</li>\n    <li>Thiết kế tiêu chuẩn, dễ sử dụng và vận hành.</li>\n    <li>Chất liệu bền, có thể tái sử dụng nhiều lần.</li>\n    <li>Đáp ứng yêu cầu xuất khẩu và kiểm dịch.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành hàng xuất khẩu như nông sản, thực phẩm, dệt may, điện tử và cơ khí.</p>\n</div>',
+    price: "Liên hệ",
+  },
+  {
+    id: 124,
+    name: "Pallet Giá Rẻ",
+    slug: "pallet-gia-re",
+    category: "pallet",
+    image:
+      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7853.jpg",
+    description:
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Giá Rẻ</strong> là lựa chọn kinh tế cho các doanh nghiệp cần tối ưu chi phí vận chuyển và lưu trữ. Sản phẩm vẫn đảm bảo độ bền và khả năng sử dụng trong nhiều môi trường khác nhau.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Giá thành thấp, phù hợp với ngân sách hạn chế.</li>\n    <li>Thiết kế đơn giản, dễ sử dụng và bảo quản.</li>\n    <li>Phù hợp với hàng hóa nhẹ và trung bình.</li>\n    <li>Có thể tái sử dụng nhiều lần.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho kho hàng, nhà máy, siêu thị và các ngành hàng tiêu dùng.</p>\n</div>',
+    price: "Liên hệ",
+  },
+  {
+    id: 111,
+    name: "Pallet Nhựa Bình Dương",
+    slug: "pallet-nhua-binh-duong",
+    category: "pallet_nhua",
+    image:
+      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-8473.jpg",
+    description:
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Nhựa</strong> là giải pháp lưu trữ và vận chuyển hiện đại, được ưa chuộng nhờ độ bền cao, khả năng chống nước và dễ vệ sinh. Sản phẩm phù hợp với nhiều ngành công nghiệp và môi trường sử dụng khác nhau.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chất liệu nhựa cứng cáp, chịu lực tốt.</li>\n    <li>Không thấm nước, không mối mọt, dễ làm sạch.</li>\n    <li>Trọng lượng nhẹ, dễ dàng di chuyển và xếp chồng.</li>\n    <li>Tuổi thọ cao, tiết kiệm chi phí lâu dài.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho kho hàng, nhà máy, siêu thị, ngành thực phẩm và dược phẩm.</p>\n</div>',
+    price: "Liên hệ",
+  },
+  {
+    id: 112,
+    name: "Pallet Nhựa Tân Uyên",
+    slug: "pallet-nhua-tan-uyen",
+    category: "pallet_nhua",
+    image:
+      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-4226.jpg",
+    description:
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Nhựa</strong> là lựa chọn tối ưu cho doanh nghiệp cần pallet bền, nhẹ và dễ bảo quản. Sản phẩm được sản xuất từ nhựa chất lượng cao, phù hợp với tiêu chuẩn vận chuyển hiện đại.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Chống thấm, chống ăn mòn, không bị ảnh hưởng bởi thời tiết.</li>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ bằng xe nâng.</li>\n    <li>Không cần xử lý mối mọt như pallet gỗ.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với ngành thực phẩm, kho lạnh, logistics và xuất khẩu.</p>\n</div>',
+    price: "Liên hệ",
+  },
+  {
     id: 101,
     name: "Pallet Gù Gỗ Tràm 4 Hướng",
     slug: "pallet-gu-go-tram-4-huong",
@@ -10,7 +64,7 @@ const products = [
     price: "Liên hệ",
   },
   {
-    id: 100,
+    id: 99,
     name: "Pallet Gù Gỗ Thông 4 Hướng Xe Nâng",
     slug: "pallet-gu-go-thong-4-huong-xe-nang",
     category: "pallet",
@@ -49,6 +103,7 @@ const products = [
     description: `<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">  <p><strong style="color:#ff0000;">Pallet Gỗ Thông 3 Đố 4 Hướng Xe Nâng</strong> là dòng pallet gỗ phổ biến được ưa chuộng trong các ngành công nghiệp nhờ thiết kế chắc chắn, khả năng chịu tải tốt và tính linh hoạt cao trong vận hành.</p>  <h3><strong>Đặc điểm nổi bật:</strong></h3>  <ul>    <li><strong>Chất liệu gỗ thông:</strong> Nhẹ, bền, dễ gia công và có khả năng chống cong vênh tốt.</li>    <li><strong>Thiết kế 3 đố:</strong> Tăng cường độ cứng và ổn định khi xếp hàng hóa nặng.</li>    <li><strong>4 hướng nâng:</strong> Giúp xe nâng tiếp cận từ mọi phía, thuận tiện trong quá trình xếp dỡ và di chuyển.</li>    <li><strong>Thân thiện môi trường:</strong> Gỗ thông là nguyên liệu tự nhiên, dễ tái chế và phân hủy.</li>    <li><strong>Chi phí hợp lý:</strong> Là giải pháp tiết kiệm cho doanh nghiệp cần pallet gỗ chất lượng với giá thành cạnh tranh.</li>  </ul>  <h3><strong>Ứng dụng:</strong></h3>  <p>Thích hợp sử dụng trong kho bãi, nhà máy sản xuất, trung tâm logistics và các ngành hàng xuất khẩu cần đảm bảo tiêu chuẩn vận chuyển an toàn và hiệu quả.</p>  <h3><strong>Kết luận:</strong></h3>  <p>Pallet Gỗ Thông 3 Đố 4 Hướng Xe Nâng là lựa chọn thông minh cho doanh nghiệp cần sự linh hoạt, bền bỉ và tiết kiệm trong hoạt động kho vận.</p></div>`,
     price: "Liên hệ",
   },
+
   {
     id: 103,
     name: "Pallet Ván Ép Xuất Khẩu 4 Hướng Xe Nâng (1220 x 1500 x 120mm)",
@@ -57,16 +112,6 @@ const products = [
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-8174.jpg",
     description: `<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">  <p><strong style="color:#ff0000;">Pallet Ván Ép Xuất Khẩu 4 Hướng Xe Nâng</strong> (1220 x 1500 x 120mm) là giải pháp lý tưởng cho việc vận chuyển và lưu trữ hàng hóa trong môi trường xuất khẩu chuyên nghiệp. Với thiết kế 4 hướng nâng tiện lợi và chất liệu ván ép chất lượng cao, sản phẩm đáp ứng đầy đủ các tiêu chuẩn quốc tế.</p>  <h3><strong>Đặc điểm nổi bật:</strong></h3>  <ul>    <li><strong>Kích thước tiêu chuẩn:</strong> 1220 x 1500 x 120mm phù hợp với nhiều loại container và kho hàng.</li>    <li><strong>Thiết kế 4 hướng nâng:</strong> Giúp xe nâng dễ dàng tiếp cận từ mọi phía, tối ưu hóa quy trình xếp dỡ.</li>    <li><strong>Chất liệu ván ép:</strong> Bền, nhẹ, chịu lực tốt và hạn chế cong vênh trong điều kiện thời tiết thay đổi.</li>    <li><strong>Thân thiện môi trường:</strong> Có thể tái chế, phù hợp với các yêu cầu xuất khẩu xanh.</li>    <li><strong>Chi phí hợp lý:</strong> Giá thành cạnh tranh, tiết kiệm chi phí vận hành cho doanh nghiệp.</li>  </ul>  <h3><strong>Ứng dụng:</strong></h3>  <p>Sản phẩm phù hợp cho các ngành công nghiệp xuất khẩu như: điện tử, dệt may, thực phẩm, gỗ nội thất và nhiều lĩnh vực khác cần vận chuyển hàng hóa an toàn, hiệu quả.</p>  <h3><strong>Kết luận:</strong></h3>  <p>Pallet ván ép 4 hướng là lựa chọn thông minh cho doanh nghiệp cần giải pháp vận chuyển tối ưu, đạt chuẩn xuất khẩu và thân thiện với môi trường.</p></div>`,
-    price: "Liên hệ",
-  },
-  {
-    id: 102,
-    name: "Pallet Gỗ Tràm 3 Đố 4 Hướng (585 x 1606 x 120mm)",
-    slug: "pallet-go-tram-3-do-4-huong",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/9-9388.jpg",
-    description: `<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">  <p><strong style="color:#ff0000;">Pallet Gỗ Tràm 3 Đố 4 Hướng</strong> (585 x 1606 x 120mm) là một trong những loại pallet gỗ được sử dụng phổ biến hiện nay. Với thiết kế 3 đố và 4 hướng nâng, sản phẩm mang đến sự chắc chắn, bền bỉ, đáp ứng nhu cầu vận chuyển hàng hóa đa dạng.</p>  <p>Sản phẩm này được sản xuất với quy trình hiện đại, đảm bảo chất lượng cao, giá cả hợp lý và phù hợp với nhiều lĩnh vực sử dụng.</p>  <p><img src="https://palletgiarebinhduong.vn/upload/filemanager/1.jpg" alt="Pallet Gỗ Bến Cát" style="width:100%; max-width:800px; height:auto;"></p>  <h3><strong style="color:#00b050;">Ưu điểm của Pallet Gỗ Tràm 3 Đố 4 Hướng:</strong></h3>  <ul>    <li><strong>Độ bền cao:</strong> Gỗ tràm tự nhiên có khả năng chịu lực tốt, chống mối mọt, bảo vệ hàng hóa an toàn trong quá trình vận chuyển.</li>    <li><strong>Kích thước tiêu chuẩn:</strong> 585 x 1606 x 120mm phù hợp với nhiều loại xe nâng và kho hàng.</li>    <li><strong>Thiết kế khoa học:</strong> Cấu trúc 3 đố và 4 hướng nâng giúp tăng cường độ cứng và linh hoạt khi sử dụng.</li>    <li><strong>An toàn vệ sinh:</strong> Được xử lý kỹ lưỡng, phù hợp với tiêu chuẩn vệ sinh công nghiệp và thực phẩm.</li>  </ul>  <p><img src="https://palletgiarebinhduong.vn/upload/filemanager/3.jpg" alt="Pallet Gỗ Bến Cát" style="width:100%; max-width:800px; height:auto;"></p>  <h3><strong>Dịch vụ liên quan:</strong></h3>  <ul>    <li>Sản xuất theo yêu cầu: Nhận đặt hàng theo mọi kích thước, mẫu mã và số lượng.</li>    <li>Cung cấp sẵn có: Luôn có sẵn số lượng lớn để đáp ứng nhu cầu cấp bách.</li>    <li>Giao hàng nhanh chóng: Hệ thống vận chuyển chuyên nghiệp, đúng hẹn trên toàn quốc.</li>    <li>Giá cả cạnh tranh: Tối ưu chi phí nhờ quy trình sản xuất hiệu quả.</li>    <li>Hỗ trợ tư vấn: Đội ngũ nhân viên nhiệt tình, giúp khách hàng lựa chọn sản phẩm phù hợp.</li>  </ul>  <h3><strong>Kết luận:</strong></h3>  <p>Pallet Gỗ Tràm 3 Đố 4 Hướng là lựa chọn lý tưởng cho các doanh nghiệp cần giải pháp vận chuyển và lưu trữ hàng hóa hiệu quả, bền vững và tiết kiệm.</p></div>`,
     price: "Liên hệ",
   },
   {
@@ -114,91 +159,48 @@ const products = [
     price: "Liên hệ",
   },
   {
-    id: 111,
-    name: "Pallet Nhựa Bình Dương",
-    slug: "pallet-nhua-binh-duong",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/11-8473.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Nhựa Bình Dương</strong> là giải pháp lưu trữ và vận chuyển hiện đại, được ưa chuộng nhờ độ bền cao, khả năng chống nước và dễ vệ sinh. Sản phẩm phù hợp với nhiều ngành công nghiệp và môi trường sử dụng khác nhau.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chất liệu nhựa cứng cáp, chịu lực tốt.</li>\n    <li>Không thấm nước, không mối mọt, dễ làm sạch.</li>\n    <li>Trọng lượng nhẹ, dễ dàng di chuyển và xếp chồng.</li>\n    <li>Tuổi thọ cao, tiết kiệm chi phí lâu dài.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho kho hàng, nhà máy, siêu thị, ngành thực phẩm và dược phẩm.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
-    id: 112,
-    name: "Pallet Nhựa Tân Uyên",
-    slug: "pallet-nhua-tan-uyen",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/10-4226.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Nhựa Tân Uyên</strong> là lựa chọn tối ưu cho doanh nghiệp cần pallet bền, nhẹ và dễ bảo quản. Sản phẩm được sản xuất từ nhựa chất lượng cao, phù hợp với tiêu chuẩn vận chuyển hiện đại.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Chống thấm, chống ăn mòn, không bị ảnh hưởng bởi thời tiết.</li>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ bằng xe nâng.</li>\n    <li>Không cần xử lý mối mọt như pallet gỗ.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với ngành thực phẩm, kho lạnh, logistics và xuất khẩu.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
     id: 113,
-    name: "Pallet Xuất Khẩu Thủ Dầu Một",
-    slug: "pallet-xuat-khau-thu-dau-mot",
+    name: "Pallet Thủ Dầu Một",
+    slug: "pallet-thu-dau-mot",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/9-4899.jpg",
     description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Thủ Dầu Một</strong> được thiết kế theo tiêu chuẩn quốc tế, phù hợp với các yêu cầu khắt khe trong vận chuyển hàng hóa đi nước ngoài. Sản phẩm đảm bảo độ bền, an toàn và hiệu quả trong quá trình sử dụng.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn ISPM 15 nếu là pallet gỗ.</li>\n    <li>Thích hợp cho cả đường bộ, đường biển và đường hàng không.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Dùng trong xuất khẩu hàng hóa công nghiệp, nông sản, thực phẩm và thiết bị máy móc.</p>\n</div>',
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Thủ Dầu Một</strong> được thiết kế theo tiêu chuẩn quốc tế, phù hợp với các yêu cầu khắt khe trong vận chuyển hàng hóa đi nước ngoài. Sản phẩm đảm bảo độ bền, an toàn và hiệu quả trong quá trình sử dụng.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn ISPM 15 nếu là pallet gỗ.</li>\n    <li>Thích hợp cho cả đường bộ, đường biển và đường hàng không.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Dùng trong xuất khẩu hàng hóa công nghiệp, nông sản, thực phẩm và thiết bị máy móc.</p>\n</div>',
     price: "Liên hệ",
   },
   {
     id: 114,
-    name: "Pallet Xuất Khẩu Bàu Bàng",
-    slug: "pallet-xuat-khau-bau-bang",
+    name: "Pallet Bàu Bàng",
+    slug: "pallet-bau-bang",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/8-9659.jpg",
     description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Bàu Bàng</strong> là dòng pallet chuyên dùng cho hàng hóa xuất khẩu, được sản xuất với độ chính xác cao và vật liệu đạt chuẩn. Sản phẩm giúp tối ưu hóa quy trình vận chuyển và lưu trữ.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ và xếp chồng.</li>\n    <li>Chất liệu bền, chịu lực tốt và ổn định trong quá trình vận chuyển.</li>\n    <li>Phù hợp với nhiều loại hàng hóa và phương tiện vận tải.</li>\n    <li>Đáp ứng yêu cầu kiểm dịch và tiêu chuẩn xuất khẩu.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho các doanh nghiệp xuất khẩu hàng hóa đi châu Á, châu Âu, Mỹ và các thị trường quốc tế khác.</p>\n</div>',
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Bàu Bàng</strong> là dòng pallet chuyên dùng cho hàng hóa xuất khẩu, được sản xuất với độ chính xác cao và vật liệu đạt chuẩn. Sản phẩm giúp tối ưu hóa quy trình vận chuyển và lưu trữ.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ và xếp chồng.</li>\n    <li>Chất liệu bền, chịu lực tốt và ổn định trong quá trình vận chuyển.</li>\n    <li>Phù hợp với nhiều loại hàng hóa và phương tiện vận tải.</li>\n    <li>Đáp ứng yêu cầu kiểm dịch và tiêu chuẩn xuất khẩu.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho các doanh nghiệp xuất khẩu hàng hóa đi châu Á, châu Âu, Mỹ và các thị trường quốc tế khác.</p>\n</div>',
     price: "Liên hệ",
   },
-  {
-    id: 115,
-    name: "Pallet Xuất Khẩu Giá Rẻ Bình Dương",
-    slug: "pallet-xuat-khau-gia-re-binh-duong",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/7-3077.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Giá Rẻ Bình Dương</strong> là giải pháp tiết kiệm cho doanh nghiệp cần pallet đạt chuẩn xuất khẩu với chi phí hợp lý. Sản phẩm vẫn đảm bảo chất lượng và hiệu quả sử dụng trong quá trình vận chuyển hàng hóa quốc tế.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Giá thành cạnh tranh, phù hợp với ngân sách doanh nghiệp vừa và nhỏ.</li>\n    <li>Thiết kế tiêu chuẩn, dễ sử dụng và vận hành.</li>\n    <li>Chất liệu bền, có thể tái sử dụng nhiều lần.</li>\n    <li>Đáp ứng yêu cầu xuất khẩu và kiểm dịch.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành hàng xuất khẩu như nông sản, thực phẩm, dệt may, điện tử và cơ khí.</p>\n</div>',
-    price: "Liên hệ",
-  },
+
   {
     id: 116,
-    name: "Pallet Xuất Khẩu Thuận An",
-    slug: "pallet-xuat-khau-thuan-an",
+    name: "Pallet Thuận An",
+    slug: "pallet-thuan-an",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-7172.jpg",
     description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Thuận An</strong> là dòng pallet được thiết kế chuyên biệt cho nhu cầu vận chuyển hàng hóa quốc tế. Sản phẩm có độ bền cao, dễ sử dụng và đáp ứng các tiêu chuẩn xuất khẩu hiện hành.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn kiểm dịch và xuất khẩu.</li>\n    <li>Thân thiện môi trường, có thể tái sử dụng.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành xuất khẩu như nông sản, thực phẩm, điện tử và cơ khí.</p>\n</div>',
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Thuận An</strong> là dòng pallet được thiết kế chuyên biệt cho nhu cầu vận chuyển hàng hóa quốc tế. Sản phẩm có độ bền cao, dễ sử dụng và đáp ứng các tiêu chuẩn xuất khẩu hiện hành.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn kiểm dịch và xuất khẩu.</li>\n    <li>Thân thiện môi trường, có thể tái sử dụng.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành xuất khẩu như nông sản, thực phẩm, điện tử và cơ khí.</p>\n</div>',
     price: "Liên hệ",
   },
   {
     id: 117,
-    name: "Pallet Xuất Khẩu Dĩ An",
-    slug: "pallet-xuat-khau-di-an",
+    name: "Pallet Dĩ An",
+    slug: "pallet-di-an",
     category: "pallet",
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7795.jpg",
     description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Dĩ An</strong> là lựa chọn lý tưởng cho các doanh nghiệp cần pallet đạt chuẩn quốc tế với chi phí hợp lý. Sản phẩm được sản xuất từ vật liệu bền chắc, phù hợp với nhiều loại hàng hóa.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ và xếp chồng.</li>\n    <li>Chất liệu bền, chịu lực tốt và ổn định trong quá trình vận chuyển.</li>\n    <li>Phù hợp với nhiều loại hàng hóa và phương tiện vận tải.</li>\n    <li>Đáp ứng yêu cầu kiểm dịch và tiêu chuẩn xuất khẩu.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho các doanh nghiệp xuất khẩu hàng hóa đi châu Á, châu Âu, Mỹ và các thị trường quốc tế khác.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
-    id: 118,
-    name: "Pallet Xuất Khẩu Tân Uyên",
-    slug: "pallet-xuat-khau-tan-uyen",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/4-5350.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu Tân Uyên</strong> là sản phẩm được thiết kế chuyên dụng cho hoạt động xuất khẩu, đảm bảo độ bền, khả năng chịu tải và tính ổn định trong quá trình vận chuyển đường dài.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chất liệu bền, chịu lực tốt, không cong vênh.</li>\n    <li>Thiết kế phù hợp với tiêu chuẩn container quốc tế.</li>\n    <li>Dễ dàng vận hành bằng xe nâng và thiết bị kho.</li>\n    <li>Thích hợp cho nhiều loại hàng hóa và ngành nghề.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các doanh nghiệp xuất khẩu trong lĩnh vực sản xuất, chế biến và logistics.</p>\n</div>',
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Dĩ An</strong> là lựa chọn lý tưởng cho các doanh nghiệp cần pallet đạt chuẩn quốc tế với chi phí hợp lý. Sản phẩm được sản xuất từ vật liệu bền chắc, phù hợp với nhiều loại hàng hóa.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Thiết kế chắc chắn, dễ dàng nâng hạ và xếp chồng.</li>\n    <li>Chất liệu bền, chịu lực tốt và ổn định trong quá trình vận chuyển.</li>\n    <li>Phù hợp với nhiều loại hàng hóa và phương tiện vận tải.</li>\n    <li>Đáp ứng yêu cầu kiểm dịch và tiêu chuẩn xuất khẩu.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho các doanh nghiệp xuất khẩu hàng hóa đi châu Á, châu Âu, Mỹ và các thị trường quốc tế khác.</p>\n</div>',
     price: "Liên hệ",
   },
   {
@@ -256,17 +258,6 @@ const products = [
     price: "Liên hệ",
   },
   {
-    id: 124,
-    name: "Pallet Giá Rẻ",
-    slug: "pallet-gia-re",
-    category: "pallet",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5-7853.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Giá Rẻ</strong> là lựa chọn kinh tế cho các doanh nghiệp cần tối ưu chi phí vận chuyển và lưu trữ. Sản phẩm vẫn đảm bảo độ bền và khả năng sử dụng trong nhiều môi trường khác nhau.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Giá thành thấp, phù hợp với ngân sách hạn chế.</li>\n    <li>Thiết kế đơn giản, dễ sử dụng và bảo quản.</li>\n    <li>Phù hợp với hàng hóa nhẹ và trung bình.</li>\n    <li>Có thể tái sử dụng nhiều lần.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho kho hàng, nhà máy, siêu thị và các ngành hàng tiêu dùng.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
     id: 125,
     name: "Gỗ Pallet Giá Rẻ",
     slug: "go-pallet-gia-re",
@@ -307,18 +298,7 @@ const products = [
     image:
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/f91d8bb5-ecf3-4d55-8b7e-2b44e9dfc7c9-2333.jpeg",
     description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet Xuất Khẩu</strong> là dòng pallet được thiết kế theo tiêu chuẩn quốc tế, phù hợp với các yêu cầu vận chuyển hàng hóa đi nước ngoài. Sản phẩm đảm bảo độ bền, an toàn và hiệu quả trong quá trình sử dụng.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn kiểm dịch và xuất khẩu.</li>\n    <li>Thân thiện môi trường, có thể tái sử dụng.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành xuất khẩu như nông sản, thực phẩm, điện tử và cơ khí.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
-    id: 129,
-    name: "Ván Công Nghiệp Bình Dương",
-    slug: "van-cong-nghiep-binh-duong",
-    category: "van_ep",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/5adb190f-8d03-4d56-82e2-698f882dcd5b-4924.jpeg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Ván Công Nghiệp Bình Dương</strong> là vật liệu lý tưởng cho sản xuất nội thất, xây dựng và đóng gói. Sản phẩm có độ bền cao, dễ thi công và giá thành hợp lý.</p>\n  <h3><strong>Đặc điểm nổi bật:</strong></h3>\n  <ul>\n    <li>Bề mặt phẳng, dễ gia công và xử lý bề mặt.</li>\n    <li>Chịu lực tốt, ít cong vênh trong điều kiện ẩm.</li>\n    <li>Đa dạng kích thước và độ dày.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp cho sản xuất nội thất, vách ngăn, sàn tạm và bao bì công nghiệp.</p>\n</div>',
+      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Pallet</strong> là dòng pallet được thiết kế theo tiêu chuẩn quốc tế, phù hợp với các yêu cầu vận chuyển hàng hóa đi nước ngoài. Sản phẩm đảm bảo độ bền, an toàn và hiệu quả trong quá trình sử dụng.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chịu lực tốt, phù hợp với hàng hóa nặng.</li>\n    <li>Thiết kế tối ưu cho container và kho hàng.</li>\n    <li>Đáp ứng tiêu chuẩn kiểm dịch và xuất khẩu.</li>\n    <li>Thân thiện môi trường, có thể tái sử dụng.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Phù hợp với các ngành xuất khẩu như nông sản, thực phẩm, điện tử và cơ khí.</p>\n</div>',
     price: "Liên hệ",
   },
   {
@@ -421,17 +401,6 @@ const products = [
     price: "Liên hệ",
   },
   {
-    id: 139,
-    name: "Gỗ Thông Minh Khôi Phát",
-    slug: "go-thong-minh-khoi-phat",
-    category: "go",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-3364.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Gỗ Thông Minh Khôi Phát</strong> là dòng gỗ thông đã qua xử lý, có độ bền cao và tính ứng dụng linh hoạt. Sản phẩm phù hợp cho các công trình cần vật liệu nhẹ, dễ thi công và có tính thẩm mỹ.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Gỗ nhẹ, dễ vận chuyển và lắp đặt.</li>\n    <li>Chống mối mọt, ẩm mốc sau xử lý.</li>\n    <li>Vân gỗ đẹp, dễ sơn phủ và hoàn thiện.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho sản xuất nội thất, pallet, kệ trưng bày và các sản phẩm trang trí.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
     id: 140,
     name: "Gỗ Cao Su Tân Uyên",
     slug: "go-cao-su-tan-uyen",
@@ -462,17 +431,6 @@ const products = [
       "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/18-8595.jpg",
     description:
       '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Gỗ Tràm Tân Uyên</strong> là nguyên liệu gỗ tự nhiên có độ bền cao, khả năng chịu lực tốt và dễ gia công. Sản phẩm được ứng dụng rộng rãi trong sản xuất pallet, nội thất và xây dựng.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Chống mối mọt, chịu lực tốt.</li>\n    <li>Vân gỗ đẹp, dễ xử lý bề mặt.</li>\n    <li>Giá thành hợp lý, nguồn cung ổn định.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Thích hợp cho sản xuất pallet, thùng gỗ, nội thất và các công trình xây dựng.</p>\n</div>',
-    price: "Liên hệ",
-  },
-  {
-    id: 143,
-    name: "Gỗ Tràm Minh Khôi Phát",
-    slug: "go-tram-minh-khoi-phat",
-    category: "go",
-    image:
-      "https://palletgiarebinhduong.vn/watermark/product/540x540x1/upload/product/6-3364.jpg",
-    description:
-      '<div class="tab-pane fade show active" id="info-pro-detail" role="tabpanel">\n  <p><strong style="color:#ff0000;">Gỗ Tràm Minh Khôi Phát</strong> là dòng gỗ tràm chất lượng cao, đã qua xử lý chống mối mọt và ẩm mốc. Sản phẩm có độ cứng tốt, dễ thi công và được sử dụng phổ biến trong ngành gỗ công nghiệp.</p>\n  <h3><strong>Ưu điểm:</strong></h3>\n  <ul>\n    <li>Gỗ chắc, chịu lực tốt, ít cong vênh.</li>\n    <li>Dễ gia công, phù hợp với nhiều mục đích sử dụng.</li>\n    <li>Thân thiện với môi trường, có thể tái chế.</li>\n    <li>Giá thành hợp lý, phù hợp với sản xuất quy mô lớn.</li>\n  </ul>\n  <h3><strong>Ứng dụng:</strong></h3>\n  <p>Dùng trong sản xuất pallet, đồ nội thất, thùng gỗ và các sản phẩm gỗ kỹ thuật.</p>\n</div>',
     price: "Liên hệ",
   },
   {
@@ -523,11 +481,11 @@ function render(productsToRender) {
     .map(
       (p) => `
   <div class="product">
-    <a href="product.html/${p.slug}" class="product-image">
+    <a href="/products/${p.slug}.html" class="product-image">
       <img src="${p.image}" alt="${p.name}" />
     </a>
     <div class="product-info">
-      <a href="product.html/${p.slug}">${p.name}</a>
+      <a href="/products/${p.slug}.html">${p.name}</a>
       <a href="tel:0966799997">Giá: <span>${p.price}</span></a>
     </div>
   </div>
@@ -556,6 +514,16 @@ if (window.location.pathname.includes("/product.html")) {
   const id = urlParams.get("id");
   const product = products.find((p) => p.id === parseInt(id));
   if (product) {
+    // change page title
+    document.title = product.name + " | Pallet nhựa và gỗ giá rẻ tại Bình Dương";
+    // get current meta name="keywords"
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    // append to meta keywords by product title
+    metaKeywords.setAttribute(
+      "content",
+      product.name + ", " + metaKeywords.getAttribute("content")
+    );
+
     document.getElementById("mainImage").src = product.image;
     document.getElementById("productCode").textContent = "Mã: " + product.id;
     document.getElementById("productName").textContent = product.name;
@@ -563,7 +531,6 @@ if (window.location.pathname.includes("/product.html")) {
       product.description;
     document.getElementById("productState").textContent =
       "Tình trạng: Còn hàng";
-
 
     // related products filter by same category
     const relatedProducts = document.getElementById("relatedProduct-list");
@@ -574,11 +541,11 @@ if (window.location.pathname.includes("/product.html")) {
       .map(
         (p) => `
     <div class="product swiper-slide">
-      <a href="product.html/${p.slug}" class="product-image">
+      <a href="/products/${p.slug}.html" class="product-image">
         <img src="${p.image}" alt="${p.name}" />
       </a>
       <div class="product-info">
-        <a href="product.html/${p.slug}">${p.name}</a>
+        <a href="/products/${p.slug}.html">${p.name}</a>
         <a href="tel:0966799997">Giá: <span>${p.price}</span></a>
       </div>
     </div>`

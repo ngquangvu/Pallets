@@ -36,8 +36,8 @@ closeMenuButton.addEventListener("click", () => {
 // Footer year
 const yearElement = document.getElementById("year");
 yearElement.textContent = new Date().getFullYear();
-
-const offsetTop = target.offsetTop - (isMobile ? 120 : 74);
+// target
+const offsetTop = isMobile ? 120 : 74;
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
