@@ -62,7 +62,7 @@ header div > a {
 header h2 {
   min-width: 260px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.3;
   font-weight: 600;
   /* color gradient left to right wood color to black */
@@ -130,7 +130,7 @@ header #menuOverlay div {
 @media (max-width: 1280px) {
   header h2 {
     min-width: 20vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     margin-left: 6px;
   }
 }
@@ -151,10 +151,15 @@ header #menuOverlay div {
 
   header img.logo {
     height: 40px;
+    padding: 0;
   }
 
   header h2 {
     font-size: 18px;
+  }
+
+  header h2 br {
+    display: none;
   }
 
   header .header-right {
